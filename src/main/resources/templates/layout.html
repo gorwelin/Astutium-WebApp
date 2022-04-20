@@ -1,0 +1,531 @@
+<!doctype html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta
+      name="google-site-verification"
+      content="fCeUIkGyx21FHRiOBxMZHL1AIj6KIXlW2vgT6WEvRtk"
+    />
+    <meta
+      name="author"
+      content="Astutium Ltd UK UltraFast Web Hosting https://astutium.com/"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Astutium.com provides domain name registration, dns services, email hosting, web hosting, website builders, virtual and dedicated servers, cloud hosting, colocation and rackspace - all in one place. Award-winning service. 24/7 Support. UK based. Servers in UK, US and NL."
+    />
+    <meta
+      name="keywords"
+      content="Register Domain Names Registration, Business Web Hosting Services, Web Hosting Provider, Business Email Accounts, Web Site Hosting, Domain Name Registration, Web Site Builder, Professional Website Host, Ecommerce Hosting Services, Domain Registration, Buy Domains, Domain Search, Domain Hosting, Registrations, DNS, Websites, Whois, ICANN Registrar"
+    />
+    <title>
+      Professional Domain Registration and Web Hosting - We provide solid web
+      hosting &amp; domain registration services! @ Astutium Ltd
+    </title>
+
+   <link
+      rel="shortcut icon"
+      href="https://cdn.astutium.com/assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" type="text/css" th:href="@{/layoutstyles.css}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/responsive-nav.css}" />
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway&display=swap" rel="stylesheet">
+
+<!-- <link rel="stylesheet" type="text/css" th:href="@{/styles.css}"> -->
+
+
+
+
+</head>
+<body>
+<div class="mobile-header">
+    <img class="mobile-header-img" th:src="@{/img/logo.png}"> 
+    <div class="mobile-nav-menu" onclick="toggleMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+</div>
+
+<nav class="mobile-nav">
+    <ul class="mobile-nav-items mobile-nav-1">
+        <li class="mobile-nav-item mobile-nav-item-domains">
+            <a class="mobile-nav-link" onclick="toggleDropdown('domainsDD')">
+                Domains <span class="material-icons">navigate_next</span>
+            </a>
+        </li>
+        <ul class="mobile-nav-dropdown" id="domainsDD">
+            <div>
+                <li><a class="dropdown-link" href="https://astutium.com/domainchecker.php">Domain Avaliabitly check</a></li>
+                <li><a class="dropdown-link" href="https://astutium.com/cart.php?carttpl=modern&a=add&domain=register">Domain Resgistration</a></li>
+                <li><a class="dropdown-link" href="https://astutium.com/clientarea.php?action=domains">Domain Renewal</a></li>
+                <li><a class="dropdown-link" href="https://astutium.com/cart.php?carttpl=modern&a=add&domain=transfer">Domain Transfer</a></li>
+                <li><a class="dropdown-link" href="https://astutium.com/domainchecker.php?search=bulkregister">Bulk Domain Search</a></li>
+                <li><a class="dropdown-link" href="https://astutium.com/domainchecker.php?search=bulktransfer">Bulk Domain Transfer</a></li>
+                <li><a class="dropdown-link" href="https://astutium.com/cart.php?a=confproduct&i=0">WHOIS ID Protection</a></li>
+                <li><a class="dropdown-link" href="https://astutium.com/cart.php?gid=162&carttpl=modern">DNS Management</a></li>
+                <li><a class="dropdown-link" href="https://astutium.com/domain-services/domain-name-parking.php">Domain Parking</a></li>
+                <li><a class="dropdown-link" href="https://astutium.com/domain-services/domain-purchase-broker.php">Domain Purchase Broker</a></li>
+                <li><a class="dropdown-link" href="https://astutium.com/domain-names/domain-name-new-tld-list.php">Proposed/New gTLDs</a></li>
+                <li><a class="dropdown-link" href="https://astutium.com/domain-reseller/resell-domain-names.php">Domain Name Reseller</a></li>
+                <li><a class="dropdown-link" href="https://astutium.com/domain-names/domain-names-explained-what-is-a-domain-name.php">Domain Explained</a></li>
+                <li><a class="dropdown-link" href="https://astutium.com/domain-services/domain-recovery-service.php">Bust Register</a></li>
+            </div>
+        </ul>
+        <li class="mobile-nav-item mobile-nav-item-domains">
+            <a class="mobile-nav-link" onclick="toggleDropdown('emailHostDD')">
+                Email Hosting <span class="material-icons">navigate_next</span>
+            </a>
+        </li>
+        <ul class="mobile-nav-dropdown" id="emailHostDD">
+            <div>
+                <li><a href="https://astutium.com/cart.php?gid=15&carttpl=comparison">IMAP Email Hosting</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=15">POP3 Email Hosting</a></li>
+                <li><a href="https://astutium.com/cart.php?a=add&pid=438&carttpl=modern">Authenticated SMTP</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=7&carttpl=modern">Email Forwarding</a></li>
+                <li><a href="https://astutium.com/cart.php?a=confproduct&i=1">Dedicated Email Server</a></li>
+                <li><a href="https://astutium.com/email-hosting/email-protection-spam-virus-scanning.php">Email Scanning</a></li>
+            </div>
+        </ul>
+        <li class="mobile-nav-item mobile-nav-item-domains">
+            <a class="mobile-nav-link" onclick="toggleDropdown('webHostDD')">
+                Web Hosting <span class="material-icons">navigate_next</span>
+            </a>
+        </li>
+        <ul class="mobile-nav-dropdown" id="webHostDD">
+            <div>
+                <li><a href="https://astutium.com/cart.php?gid=1&carttpl=comparison">Hosting for Personal</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=2">Hosting for SME/Business</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=159">Windows asp.net Hosting</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=18">E-Commerce Secure SSL</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=34">Streaming Media</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=5">Java Developer Hosting</a></li>
+                <li><a href="https://astutium.com/application-hosting/application-hosting.php">Application Hosting (SAAS)</a></li>
+                <li><a href="https://astutium.com/company/contact-us.php">Script Hosting</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=7&carttpl=modern">Web Forwarding</a></li>
+            </div>
+        </ul>
+        <li class="mobile-nav-item mobile-nav-item-domains">
+            <a class="mobile-nav-link" onclick="toggleDropdown('resellersDD')">
+                Resellers <span class="material-icons">navigate_next</span>
+            </a>
+        </li>  
+        <ul class="mobile-nav-dropdown" id="resellersDD">
+            <div>
+                <li><a href="https://astutium.com/domain-reseller/resell-domain-names.php">Domain Name Reseller</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=4">Reseller Hosting</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=4">cPanel/WHM Reseller</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=4">Directadmin Reseller</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=166">Email Hosting Reseller</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=34">Streaming Media Reseller</a></li>
+            </div>
+        </ul>        
+        <li class="mobile-nav-item mobile-nav-item-domains">
+            <a class="mobile-nav-link" onclick="toggleDropdown('vpsDD')">
+                VPS / VDS & Cloud <span class="material-icons">navigate_next</span>
+            </a>
+        </li> 
+        <ul class="mobile-nav-dropdown" id="vpsDD">
+            <div>
+                <li><a href="https://astutium.com/cart.php?gid=170&carttpl=slider">Linux VPS Virtual Private (OVZ)</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=177">Linux Cloud Servers (KVM)</a></li>
+                <li><a href="https://astutium.com/company/contact-us.php">Private Cloud Solutions</a></li>
+                <li><a href="https://astutium.com/cart.php?a=confproduct&i=2">Custom Cloud Servers (IAAS)</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=60">Virtual Server Management</a></li>
+                <li><a href="https://astutium.com/cloud-servers/cloud-vds-vps-server-control-panels.php">Control Panels</a></li>
+            </div>
+        </ul>        
+        <li class="mobile-nav-item mobile-nav-item-domains">
+            <a class="mobile-nav-link" onclick="toggleDropdown('dedServerDD')">
+                Dedicated Servers <span class="material-icons">navigate_next</span>
+            </a>
+        </li>
+        <ul class="mobile-nav-dropdown" id="dedServerDD">
+            <div>
+                <li><a href="https://astutium.com/cart.php?gid=9">Linux Servers</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=9">cPanel/WHM Hosting Servers</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=9">Directadmin Hosting Servers</a></li>
+                <li><a href="https://astutium.com/game-servers/minecraft-gaming-server.php">Gameservers - Minecraft</a></li>
+            </div>
+        </ul>        
+        <li class="mobile-nav-item mobile-nav-item-domains">
+            <a class="mobile-nav-link" onclick="toggleDropdown('websitesDD')">
+                Websites <span class="material-icons">navigate_next</span>
+            </a>
+        </li>   
+        <ul class="mobile-nav-dropdown" id="websitesDD">
+            <div>
+                <li><a href="https://astutium.com/website-design/rv-website-builder.php">Website Builder</a></li>
+                <li><a href="https://astutium.com/website-design/website-template-designs.php">Website Templates</a></li>
+                <li><a href="https://astutium.com/website-design/shopping-cart-convervions.php">Cart Converters</a></li>
+                <li><a href="https://astutium.com/services/seo-website-structure-audit.php">Search Engine Optimisation (SEO)</a></li>
+                <li><a href="https://astutium.com/website-design/website-migration-service.php">Migration Service</a></li>
+            </div>
+        </ul>        
+        <li class="mobile-nav-item mobile-nav-item-domains">
+            <a class="mobile-nav-link" onclick="toggleDropdown('sslDD')">
+                SSL <span class="material-icons">navigate_next</span>
+            </a>
+        </li>
+        <ul class="mobile-nav-dropdown" id="sslDD">
+            <div>
+                <li><a href="https://astutium.com/cart.php?gid=43&carttpl=modern">SSL Certificate</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=18&carttpl=comparison">E-Commerce Hosting</a></li>
+                <li><a href="https://astutium.com/secure-certificates/ssl-types-and-issuing-procedure.php">Types of SSL</a></li>
+                <li><a href="https://astutium.com/secure-certificates/what-is-secure-socket-layers.php">What is SSL?</a></li>
+            </div>
+        </ul>        
+        <li class="mobile-nav-item mobile-nav-item-domains">
+            <a class="mobile-nav-link" onclick="toggleDropdown('otherDD')">
+                Other Services <span class="material-icons">navigate_next</span>
+            </a>
+        </li> 
+        <ul class="mobile-nav-dropdown" id="otherDD">
+            <div>
+                <li><a href="https://astutium.com/cart.php?gid=16">UK Colocation (COLO)</a></li>
+                <li><a href="https://astutium.com/services/secondary-mail.php">Secondary Mail</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=43&carttpl=modern">SSL Certificates</a></li>
+                <li><a href="https://astutium.com/services/network-design-and-setup.php">Network Design</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=41&carttpl=modern">WHMCS Addon Modules</a></li>
+            </div>
+        </ul> 
+        <li class="mobile-nav-item mobile-nav-item-domains">
+            <a class="mobile-nav-link" onclick="toggleDropdown('moreDD')">
+                More <span class="material-icons">navigate_next</span>
+            </a>
+        </li>   
+        <ul class="mobile-nav-dropdown" id="moreDD">
+            <div>
+                <li><a href = "https://blog.astutium.com/"><img class = "blogPic" th:src="@{/img/blog.png}" width = "" height= ""> Blog</a></li>
+                <li><a href = "https://status.astutium.com/"><img class = "blogPic" th:src="@{/img/status.png}" width = "" height= ""> Status</a></li>
+                <li><a href = "https://astutium.com/affiliates/affiliates-signup.php"><img class = "blogPic" th:src="@{/img/affiliates.png}" width = "" height= ""> Affiliates</a></li>
+                <li><a href = "https://astutium.com/company/contact-us.php"><img class = "blogPic" th:src="@{/img/contact.png}" width = "" height= ""> Contact</a></li>
+                <li><a href = "https://astutium.com/submitticket.php"><img class = "blogPic" th:src="@{/img/support.png}" width = "" height= ""> Support</a></li>
+                <li><a href = "https://astutium.com/clientarea.php"><img class = "blogPic" th:src="@{/img/portal.png}" width = "" height= ""> Client Portal</a></li>
+                <a href="tel:+442034752555">(+44)2034752555 (UK)</a>
+                <a href="tel:+16072642555">(+1)6072642555 (US)</a>
+            </div>
+        </ul>                                         
+    </ul>
+</nav>
+<header class = "header">
+    <div class="wrapper">
+    <div class = "TopNav">
+        <li><img class = "blogPic" th:src="@{/img/blog.png}" width = "" height= ""><a href = "https://blog.astutium.com/">blog</a></li>
+        <li><img class = "blogPic" th:src="@{/img/status.png}" width = "" height= ""><a href = "https://status.astutium.com/">status</a></li>
+        <li><img class = "blogPic" th:src="@{/img/affiliates.png}" width = "" height= ""><a href = "https://astutium.com/affiliates/affiliates-signup.php">affiliates</a></li>
+        <li><img class = "blogPic" th:src="@{/img/contact.png}" width = "" height= ""><a href = "https://astutium.com/company/contact-us.php">contact</a></li>
+        <li><img class = "blogPic" th:src="@{/img/support.png}" width = "" height= ""><a href = "https://astutium.com/submitticket.php">support</a></li>
+        <li><img class = "blogPic" th:src="@{/img/portal.png}" width = "" height= ""><a href = "https://astutium.com/clientarea.php">client portal</a></li>
+    </div>
+
+ 
+
+    <div class = "MainLogo">       
+        <img class = "logo-img" th:src="@{/img/logo.png}" width = "127" height= "116"> 
+        <img class = "logo-name" th:src="@{/img/name.png}" width = "320" height = "60">
+
+    <div class="PhoneNumbers">
+        <div class="PhoneUK">
+            <img th:src="@{/img/phone.png}" class="phone">
+            <img th:src="@{/img/flag.uk.png}" width="12" height="12" class="flag">
+            <a href="tel:+442034752555"><img th:src="@{/img/phoneNo1.png}" width="160" height="30" ></a>
+        </div>
+        <div class ="PhoneUS">
+            <img th:src="@{/img/phone.png}" class="phone">
+            <img th:src="@{/img/flag.us.png}" width="12" height="12" class="flag">
+            <a href="tel:+16072642555"><img th:src="@{/img/phoneNo2.png}" width="160" height="30"></a>
+        </div>
+    </div>
+    </div>
+
+
+        <div class = "background" id="BackGround">
+            <div class = "Dropdown">
+                <a class = "dropbtn" href="">DOMAINS</a>
+            <div class = "Dropdown-content">
+                <a href="https://astutium.com/domainchecker.php">Domain Avaliabitly check</a>
+                <a href="https://astutium.com/cart.php?carttpl=modern&a=add&domain=register">Domain Resgistration</a>
+                <a href="https://astutium.com/clientarea.php?action=domains">Domain Renewal</a>
+                <a href="https://astutium.com/cart.php?carttpl=modern&a=add&domain=transfer">Domain Transfer</a>
+                <a href="https://astutium.com/domainchecker.php?search=bulkregister">Bulk Domain Search</a>
+                <a href="https://astutium.com/domainchecker.php?search=bulktransfer">Bulk Domain Transfer</a>
+                <a href="https://astutium.com/cart.php?a=confproduct&i=0">WHOIS ID PROTECTION</a>
+                <a href="https://astutium.com/cart.php?gid=162&carttpl=modern">DNS Management</a>
+                <a href="https://astutium.com/domain-services/domain-name-parking.php">domain parking</a>
+                <a href="https://astutium.com/domain-services/domain-purchase-broker.php">domain purchase broker</a>
+                <a href="https://astutium.com/domain-names/domain-name-new-tld-list.php">proposed / new gtlds</a>
+                <a href="https://astutium.com/domain-reseller/resell-domain-names.php">domain name reseller</a>
+                <a href="https://astutium.com/domain-names/domain-names-explained-what-is-a-domain-name.php">domain explained</a>
+                <a href="https://astutium.com/domain-services/domain-recovery-service.php">bust register</a>
+            </div>
+            </div>
+        </div> 
+
+
+
+        <div class = "background" id="BackGround">
+            <div class = "Dropdown">
+                <a class = "dropbtn" href="">EMAIL HOSTING</a>
+            <div class = "Dropdown-content">
+                <a href="https://astutium.com/cart.php?gid=15&carttpl=comparison">imap email hosting</a>
+                <a href="https://astutium.com/cart.php?gid=15">pop3 email hosting</a>
+                <a href="https://astutium.com/cart.php?a=add&pid=438&carttpl=modern">authenticated smtp</a>
+                <a href="https://astutium.com/cart.php?gid=7&carttpl=modern">email forwarding</a>
+                <a href="https://astutium.com/cart.php?a=confproduct&i=1">dedicated emial server</a>
+                <a href="https://astutium.com/email-hosting/email-protection-spam-virus-scanning.php">email scanning</a>
+            </div>
+            </div>
+        </div>
+
+
+        <div class = "background" id="BackGround">
+            <div class = "Dropdown">
+                <a class = "dropbtn" href="">WEB HOSTING</a>
+            <div class = "Dropdown-content">
+                <a href="https://astutium.com/cart.php?gid=1&carttpl=comparison">Hosting for personal</a>
+                <a href="https://astutium.com/cart.php?gid=2">hosting for sme / business</a>
+                <a href="https://astutium.com/cart.php?gid=159">windows asp.net hosting</a>
+                <a href="https://astutium.com/cart.php?gid=18">ecommerce secure ssl</a>
+                <a href="https://astutium.com/cart.php?gid=34">streaming media</a>
+                <a href="https://astutium.com/cart.php?gid=5">java developer hosting</a>
+                <a href="https://astutium.com/application-hosting/application-hosting.php">application hosting (saas)</a>
+                <a href="https://astutium.com/company/contact-us.php">script hosting</a>
+                <a href="https://astutium.com/cart.php?gid=7&carttpl=modern">web forwarding</a>
+            </div>
+            </div>
+        </div>
+
+
+        <div class = "background" id="BackGround">
+            <div class = "Dropdown">
+                <a class = "dropbtn" href="">RESELLERS</a>
+            <div class = "Dropdown-content">
+                <a href="https://astutium.com/domain-reseller/resell-domain-names.php">domain name reseller</a>
+                <a href="https://astutium.com/cart.php?gid=4">reseller hosting</a>
+                <a href="https://astutium.com/cart.php?gid=4">cpanel/whm reseller</a>
+                <a href="https://astutium.com/cart.php?gid=4">directadmin reseller</a>
+                <a href="https://astutium.com/cart.php?gid=166">email hosting reseller</a>
+                <a href="https://astutium.com/cart.php?gid=34">streaming media reseller</a>
+            </div>
+            </div>
+        </div>
+
+
+
+        <div class = "background" id="BackGround">
+            <div class = "Dropdown">
+                <a class = "dropbtn" href="">VPS / VDS & CLOUD</a>
+            <div class = "Dropdown-content">
+                <a href="https://astutium.com/cart.php?gid=170&carttpl=slider">linux vps virtual pirvate (ovz)</a>
+                <a href="https://astutium.com/cart.php?gid=177">linux cloud servers (kvm)</a>
+                <a href="https://astutium.com/company/contact-us.php">private cloud solutions</a>
+                <a href="https://astutium.com/cart.php?a=confproduct&i=2">custom cloud servers (iaas)</a>
+                <a href="https://astutium.com/cart.php?gid=60">virtual server management</a>
+                <a href="https://astutium.com/cloud-servers/cloud-vds-vps-server-control-panels.php">control panels</a>
+            </div>
+            </div>
+        </div>
+
+
+
+        <div class = "background" id="BackGround">
+            <div class = "Dropdown">
+                <a class = "dropbtn" href="">DEDICATED SERVERS</a>
+            <div class = "Dropdown-content">
+                <a href="https://astutium.com/cart.php?gid=9">linux servers</a>
+                <a href="https://astutium.com/cart.php?gid=9">cpanel/whm hosting servers</a>
+                <a href="https://astutium.com/cart.php?gid=9">directadmin hosting servers</a>
+                <a href="https://astutium.com/game-servers/minecraft-gaming-server.php">gameservers - minecraft</a>
+            </div>
+            </div>
+        </div>
+
+
+        <div class = "background" id="BackGround">
+            <div class = "Dropdown">
+                <a class = "dropbtn" href="">WEBSITES</a>
+            <div class = "Dropdown-content">
+                <a href="https://astutium.com/website-design/rv-website-builder.php">website builder</a>
+                <a href="https://astutium.com/website-design/website-template-designs.php">website templates</a>
+                <a href="https://astutium.com/website-design/shopping-cart-convervions.php">cart converters</a>
+                <a href="https://astutium.com/services/seo-website-structure-audit.php">search engine optimisation</a>
+                <a href="https://astutium.com/website-design/website-migration-service.php">migration service</a>
+            </div>
+            </div>
+        </div>
+
+
+        <div class = "background" id="BackGround">
+            <div class = "Dropdown">
+                <a class = "dropbtn" href="">SSL</a>
+            <div class = "Dropdown-content">
+                <a href="https://astutium.com/cart.php?gid=43&carttpl=modern">ssl certificate</a>
+                <a href="https://astutium.com/cart.php?gid=18&carttpl=comparison">ecommerce hosting</a>
+                <a href="https://astutium.com/secure-certificates/ssl-types-and-issuing-procedure.php">types of ssl</a>
+                <a href="https://astutium.com/secure-certificates/what-is-secure-socket-layers.php">what is ssl ?</a>
+            </div>
+            </div>
+        </div>
+
+
+        <div class = "background" id="BackGround">
+            <div class = "Dropdown">
+                <a class = "dropbtn" href="">OTHER SERVICES</a>
+            <div class = "Dropdown-content">
+                <a href="https://astutium.com/cart.php?gid=16">uk colocation (colo)</a>
+                <a href="https://astutium.com/services/secondary-mail.php">secondary mail</a>
+                <a href="https://astutium.com/cart.php?gid=43&carttpl=modern">ssl certificates</a>
+                <a href="https://astutium.com/services/network-design-and-setup.php">network design</a>
+                <a href="https://astutium.com/cart.php?gid=41&carttpl=modern">whmcs addon modules</a>
+
+            </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+	<main role="main" class="container">
+
+
+		<div class="row">
+			<div layout:fragment="content" layout:remove="body"></div>
+		</div>
+
+	</main>
+
+
+<footer>
+        <div class = "footWrapper">
+        <div class = "Astutium footer-astutium-child">
+            <h2>ASTUTIUM</h2>
+            <ul>
+                <li><a href="https://astutium.com/company/about-astutium.php">About Astutium</a></li>
+                <li><a href="https://astutium.com/company/as29527-network.php">Our Network</a></li>
+                <li><a href="https://astutium.com/company/astutium-datacentre.php">Our Datacentre</a></li>
+                <li><a href="https://astutium.com/company/memberships.php">Memberships</a></li>
+                <li><a href="https://astutium.com/submitticket.php?step=2&deptid=3">Contact Form</a></li>
+                <li><a href="https://astutium.com/company/acquisitions.php">Acquisitions</a></li>
+                <li><a href="https://astutium.com/legal/legal.php">Legal | Contracts</a></li>
+                <li><a href="https://astutium.com/legal/policies-eu-general-data-protection-regulation.php">EU GDPR Statement</a></li>
+                <div class="break"></div>
+                <li><a href="https://astutium.com/testimonials.php">Testimonals</a></li>
+                <li><a href="https://astutium.com/reviews.php">Reviews</a></li>
+                <li><a href="https://astutium.com/company/awards.php">Awards</a></li>
+                <li><a href="https://blog.astutium.com/category/about-astutium/press-releases/">Press releases</a></li>
+                <li><a href="https://astutium.com/company/price-list.php">Price List</a></li>
+            </ul>
+        </div>
+
+        <div class = "Astutium">
+            <h2>products / services</h2>
+            <ul>
+                <li><a href="https://astutium.com/domainchecker.php">Register Domains</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=16&carttpl=comparison">Server Colocation</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=2">Website Hosting</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=4&carttpl=comparison">cPanel WHM Resellers</a></li>
+                <li><a href="https://astutium.com/application-hosting/application-hosting-wordpress.php">Managed WordPress Services</a></li>
+                <li><a href="https://astutium.com/https://astutium.com/virtual-dedicated-servers/virtual-dedicated-servers-linux-kvm.php">Cloud Servers</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=41&carttpl=modern">WHMCS Modules</a></li>
+                <li><a href="https://astutium.com/cart.php?gid=43&carttpl=modern">SSL Certificate</a></li>
+                <li><a href="https://astutium.com/website-design/rv-website-builder.php">Website Builder</a></li>
+            </ul>
+        </div>
+        <div class = "Astutium">
+            <h2>Support</h2>
+            <ul>
+                <li><a href="https://astutium.com/knowledgebase.php">Knowledgebase</a></li>
+                <li><a href="https://astutium.com/astutium-tutorials.php">Video Tutorials</a></li>
+                <li><a href="https://astutium.com/downloads.php">Downloads</a></li>
+                <li><a href="https://astutium.com/supporttickets.php">Support Tickets</a></li>
+                <li><a href="https://astutium.com/submitticket.php">Submit Ticket</a></li>
+                <li><a href="http://whois.astutium.com/whois">Domain Whois</a></li>
+                <li><a href="https://astutium.com/domain-wiki/about-domain-tlds.php">Domain Wiki</a></li>
+            </ul>
+        </div>
+        <div class = "Astutium">
+            <h2>Stay in touch</h2>
+            <ul>
+                <span>ASTUTIUM LTD<br>32-33 SKYLINES BUS. PARK<br>LIMEHARBOUR<br>LONDON<br>E14 9TS</span>
+
+                <p><span class="grey">P:</span> <a href="tel:+442034752555" title="+44.20.3475.2555 Astutium Ltd UK Phone No">0203 475 2555</a></p>
+
+                <p><a href="mailto:sales@astutium.com">sales [@] astutium.com</a></p>
+            </ul>
+        <ul class="liststylesocial">
+            <li class="facebook"><a href="https://www.facebook.com/Astutium" target="_blank"><img th:src="@{/img/facebook.png}"> &nbsp; Like <strong class="astutiumBlue">astutium</strong> </a></li>
+            <li class="twitter"><a href="https://twitter.com/astutium/" target="_blank"><img th:src="@{/img/twitter.png}"> &nbsp; Follow <strong class="astutiumBlue">@astutium</strong> </a></li>
+            <li class="linkedin"><a href="https://www.linkedin.com/company/astutium-ltd" target="_blank"><img th:src="@{/img/linkedin.png}"> &nbsp; Connect <strong class="astutiumBlue">astutium-ltd</strong></a></li>
+            <li class="youtube"><a href="https://www.youtube.com/user/astutium/videos" target="_blank"><img th:src="@{/img/youtube.png}"> &nbsp; Watch <strong class="astutiumBlue">astutium</strong> </a></li>
+        </ul>
+        </div>
+        </div>
+    </footer>
+
+
+	
+<script type="text/javascript" th:src="@{/slick.js}"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/psl/1.8.0/psl.js" integrity="sha512-eYSwNMngz/RXGVx9dmwTMuh6a9jhE1CABlIhVC0Bh6vx+yWgVKN1Cj+wg2emtAcfPydxW88GGKMY4XppBucsZQ==" crossorigin="anonymous"></script>
+<script data-main="https://cdnjs.cloudflare.com/ajax/libs/psl/1.8.0/psl.js" th:src="@{/require.js}"></script>
+	<!--  <script>
+		$(document).ready(function() {
+			$(".dropdown-toggle").dropdown();
+		});
+	</script>-->
+	
+	 
+
+    <script type="text/javascript">
+
+        function toggleMenu(menuButton) {
+            $(menuButton).toggleClass("menu-change");
+            var x = $(".mobile-nav");
+            x.toggleClass("responsive");
+            
+            if(x.hasClass("responsive")) {
+                x.width("100%");
+            } else {
+                x.width("0%");
+            }
+
+
+
+            if($(".mobile-nav-dropdown").hasClass("dropdown-active")) {
+                $(".mobile-nav-dropdown").removeClass("dropdown-active");
+                $(".mobile-nav-dropdown").width("0%");
+                $(".dropdown-back-li").remove();
+            }
+
+
+}
+
+        function toggleDropdown(dropdownID) {
+            var dropdown = $('#' + dropdownID);
+            
+            dropdown.toggleClass("dropdown-active");
+
+            if(dropdown.hasClass("dropdown-active")) {
+                dropdown.append('<li class="dropdown-back-li"><a class="dropdown-back dropdown-link" onclick="toggleDropdown(\''+ dropdownID +'\')"><span class="material-icons">chevron_left</span> back</a></li>');
+                dropdown.width("100%");
+            } else {
+                $("#" + dropdownID + " li").last().remove();
+                dropdown.width("0%");
+            }
+                
+        }
+
+    </script>
+</body>
+</html>

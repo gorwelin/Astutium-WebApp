@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{layout.html}">
+<head>
+<meta charset="UTF-8">
+<title>Domain Results - Astutium Domain Registration</title>
+
+<link rel="stylesheet" type="text/css" th:href="@{/resultsstyles.css}" />
+
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+</head>
+<body layout:fragment="content">
+	<div class="row-container">
+	
+
+	<div class="domain-searchbar">
+		<form method="post" th:action="@{/domain/search}" class="col-md-12" id="domain-search">
+			<input id="search" name="domaininput" type="search" placeholder="Search for domains to start - e.g. example.com" pattern="([a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+([a-z0-9][a-z0-9-]{0,61}[a-z0-9])" title="Please enter a valid domain e.g. example.co.uk"/>
+			<input type="hidden" name="tld" id="tld">
+			<button id="submit" type="submit"><span class="material-icons">search</span></button>
+		</form>
+		<a class="filter-window-open" onclick="toggleFilter()"><span class="material-icons">filter_alt</span></a>
+	</div>
+	
+
+	<th:block th:switch="${result.available}">
+		<div th:case="false" class="results-banner d-flex flex-row justify-content-center w-100">
+			<img class="results-banner-img" src="../static/img/notavailable.svg" th:src="@{/img/notavailable.svg}"/>
+			<div class="results-banner-spacer"></div>
+			<div class="results-banner-text col-md-6 d-flex flex-column justify-content-between h-100">
+				<h1 class="results-banner-header astutium-orange">Bad news..</h1>
+				<div>
+					<p class="m-0" th:text="${result.domain + ' is not available'}"></p>
+					<p class="m-0" >But, there are others that may still be free!</p>
+				</div>
+				<div class="h-25">&nbsp;</div>
+				
+				<a href="#results-table" class="results-banner-button astutium-blue">See alternative domains</a>
+			</div>
+		</div>
+		<div th:case="true" class="results-banner">
+			<img class="results-banner-img" src="../static/img/available.svg" th:src="@{/img/available.svg}"/>
+			<div class="results-banner-spacer"></div>
+			<div class="results-banner-text">
+				<h1 class="results-banner-header text-success">Great news!</h1>
+				<div>
+					<p class="m-0" th:text="${result.domain + ' is available!'}"></p>
+				</div>
+				<div class="results-banner-price-container">
+					<span class="results-banner-price" th:text="${'£' + result.price}"></span>
+					<span>per year</span>
+				</div>
+				<p class="results-banner-dns">Free DNS & 24/7 support, what's not to love?</p>
+				
+				<form method="POST" class="addtobasket">
+					<input type='hidden' name='itemname' th:value="${result.domain}"/>
+					<input type='hidden' name='price' th:value="${result.price}"/>
+					<button class="results-banner-button astutium-blue" type="submit">add to cart <span class="material-icons">shopping_cart</span></button>
+				</form>
+
+				<a href="#results-table" class="results-banner-sidelink">See alternative domains</a>
+			</div>
+		</div>
+	
+	</th:block>
+	
+
+
+	<!-- <p th:text="${result}"></p> -->
+	<div class="popular-set" >
+		<h2>Most Popular</h2>
+		<div class="popular-container">
+
+		</div>
+	</div>
+	
+		<div class="results-table-headers mb-1">
+			<h3>All domain endings</h3>
+		</div>
+		<table class="results-table" id="results-table">
+
+		  <colgroup>
+    		<col class="results-table-column-available">
+    		<col class="results-table-column-domain">
+    		<col class="results-table-column-price">
+    		<col class="results-table-column-cart">
+  		</colgroup>
+		<tbody class="table-body">
+		</tbody>
+	</table>
+	<div class="results-load">
+		<a onclick="javascript:ajaxLoad();">Load more</a>
+	</div>
+	
+
+<div class="filter-window">
+	<div class="filter-escape"></div>
+	<div class="filter-tld-window">
+		<div>
+			<div class="filter-tld-window-header">
+				<h4>Filter</h4>
+				<button type="button" onclick="toggleFilter()" class="filter-tld-cancel"><span class="material-icons">close</span></button>
+			</div>
+			<p>Change the page to only show what you are looking for.</p>
+		
+			<form method="POST" class="filter-tld-form" id="filter-tld-form">
+				<span class="filter-tld-title">Endings (TLDs)
+					<div class="tooltip">
+						<span class="material-icons">help</span>
+						<span class="tooltiptext">The end of your website domain, for example .co.uk or .com</span>
+					</div>
+				</span>
+					<button type="button"  class="filter-tld-accordion">Show groups</button>
+					<div class="filter-tld-panel">
+			  			<button type="button" onclick="applyTLDFilter('tldPop')">Popular</button>
+						<button type="button" onclick="applyTLDFilter('globals')">Globals</button>
+						<button type="button" onclick="applyTLDFilter('newgTLDs')">new gTLDs</button>
+						<button type="button" onclick="applyTLDFilter('uks')">UKs</button>
+						<button type="button" onclick="applyTLDFilter('european')">European</button>
+						<button type="button" onclick="applyTLDFilter('fareast')">Far East</button>
+						
+					</div>	
+				<input type="hidden" name="domainname" th:value="${domaininput}" />
+				<select class="filter-tld-search" name="tldChecked" multiple="multiple" style="width:100%">
+					<th:block th:each="tldFilter, stat : ${tldList}">
+						<!--  <input type="checkbox" name="tldChecked" th:value="${stat.index}" />
+						<label for="tldChecked" th:text="${tldFilter.tld}" /></label>-->
+						<option th:value=${stat.index} th:text="${tldFilter.tld}"></option>
+						
+					</th:block>
+				</select>
+			
+			</form>
+		</div>
+		
+		<div class="filter-tld-buttons">
+			<button type="button" onclick="clearFilter()">Clear all</button>
+			<button type="submit" form="filter-tld-form" class="filter-tld-submit">Apply</button>
+		</div>
+
+
+
+		
+	</div>
+</div>
+
+
+
+</div>
+		<div class="domain-navigation">
+			<div class="domain-navigation-container">
+
+			</div>
+
+		</div>
+<script th:inline="javascript">
+
+            $(document).ready(function() {
+            
+			$('.filter-tld-search').select2({
+				placeholder: "Select or search for a TLD",
+				allowClear: true
+			});
+			$('.filter-tld-panel').slideUp();
+            
+                var request;
+                
+                $("#domain-search").submit(function(e) {
+                	if (request) {
+                        request.abort();
+                    }
+                	
+                	var domaininput = $("#search").val();
+					
+                    var psl = require("psl");
+                    
+                    if(psl.isValid(domaininput)) {
+                    	var domainstring = psl.parse(domaininput);
+                    	console.log(domainstring.tld);
+                    	console.log(domainstring.sld);
+                    
+                    	$("#search").val(domainstring.sld);
+                    	$("#tld").val("."+domainstring.tld);
+                    
+                    	return true;
+                    } else {
+                    	alert("your domain is not valid, please try again");
+                    	return false;
+                    }
+                    
+                    
+
+            
+
+                });
+
+
+            })
+
+
+
+
+var domain = /*[[${domaininput}]]*/ 'domaininput'
+var tld = /*[[${tld}]]*/ 'tldinput'
+
+var table;
+
+$(document).ready(function() {
+	$(".domain-navigation").hide();
+		popularTLDLoad();
+		ajaxLoad();
+	//ajaxLoad();
+	
+	
+	
+	var acc = $(".filter-tld-accordion");
+
+for (var i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if ($(acc).hasClass("active")) {
+    	$(panel).slideDown();
+    } else {
+    	$(panel).slideUp();
+    }
+  });
+}
+})
+
+
+function popularTLDLoad() {
+	toggleLoader('popular-set');
+	$.ajax({
+		type: "GET",
+		url: "/domain/search/set/popular",
+		data: {domaininput: domain},
+		success: function(response) {
+			var psl = require("psl");
+			for(var i = 0; i < response.length; i++) {
+				var domainstring = psl.parse(response[i].domain);
+				
+				if(response[i].available == true) {
+					$(".popular-container").append("<div class='popular-domain'><span class='material-icons text-success'>check_circle_outline</span><span class='popular-tld'>." + domainstring.tld + "</span><span class='popular-price'>"+ response[i].price +"/year</span></div>");
+					/*$(".popular-set").append("<tr><td class='text-center results-table-available'><span class='material-icons text-success'>check_circle_outline</span></td><td>."+ domainstring.tld +"</td><td class='text-right'>"+ response[i].price +"/year</td></tr>");*/
+				} else {
+					$(".popular-container").append("<div class='popular-domain'><span class='material-icons text-danger'>highlight_off</span><span class='popular-tld'>." + domainstring.tld + "</span><span class='popular-price'>"+ response[i].price +"/year</span></div>");
+					//$(".popular-set").append("<tr><td class='text-center results-table-available'><span class='material-icons text-danger'>highlight_off</span></td><td>."+ domainstring.tld +"</td><td class='text-right'>"+ response[i].price +"/year</td></tr>");
+				}
+				
+			}
+			
+			toggleLoader('popular-set');
+			
+		}
+	})
+
+}
+
+function ajaxLoad() {
+	console.log("ajaxload");
+	toggleLoader('results-table');
+	$.ajax({
+		type: "GET",
+		url: "/domain/search/set",
+		data: {domaininput: domain},
+		success: function(response) {
+			for(var i = 0; i < response.length; i++) {
+				if(response[i].available == true) {
+					$(".table-body").append("<tr><td class='text-center results-table-available'><span class='material-icons text-success'>check_circle_outline</span></td><td>"+ response[i].domain +"</td><td class='text-center'>£"+ response[i].price +"/year</td><td><form action='javascript:void(0);' class='addtobasket'><input type='hidden' name='itemname' value='"+ response[i].domain +"'/><input type='hidden' name='price' value='"+ response[i].price +"'/><button class='results-table-form-button' type='submit'><span class='material-icons'>add_shopping_cart</span></button></form></td></tr>");
+				} else {
+					$(".table-body").append("<tr><td class='text-center results-table-available'><span class='material-icons text-danger'>highlight_off</span></td><td>"+ response[i].domain +"</td><td class='text-center'>£"+ response[i].price +"/year</td><td><button class='results-table-form-button-disabled' disabled><span class='material-icons'>remove_shopping_cart</span></button></td></tr>");
+				}
+				
+			}
+			toggleLoader('results-table');
+		}
+	})
+}
+
+var basketCount = 0;
+
+$('body').on('submit', '.addtobasket', function(event) {
+    event.preventDefault();
+    var form = $(this);
+    var formsubmit = $('button[type=submit]', form);
+    
+    
+    formsubmit.html("<span class='material-icons text-success'>check</span>");
+    
+
+    
+    formsubmit.prop("disabled", true);
+    formsubmit.css("cursor", "default");
+    
+    
+    		$.ajax({
+           type: "POST",
+           url: "/addToBasket",
+           data: {
+           		"itemname": $('input[name=itemname]', form).val(),
+           		"price": $('input[name=price]', form).val()
+           }
+         });
+         
+	basketCount++;
+	
+	$.get("/basket/size", function(data, status){
+		$(".domain-navigation").show(500);
+    	$('.domain-navigation-container').append("<span class='material-icons'>shopping_cart</span>"+ basketCount + "<a href='/domain/basket'>Go to basket</a>");
+	});
+});
+
+$('body').on('submit', '.filter-tld-form', function(event) {
+
+	event.preventDefault();
+	var form = $(this);
+	var formSerialized = $(form).serialize();
+	
+		$.ajax({
+		type: "GET",
+		url: "/listset",
+		data: formSerialized,
+		success: function(response) {
+			$(".table-body").empty();
+			if($(".filter-window").hasClass("filter-dropdown-active")) {
+				toggleFilter();
+			}
+			for(var i = 0; i < response.length; i++) {
+				$(".table-body").append("<tr><td class='text-center results-table-available'><span class='material-icons text-success'>check_circle_outline</span></td><td>"+ response[i].domain +"</td><td class='text-center'>£"+ response[i].price +"/year</td><td><form action='javascript:void(0);' class='addtobasket'><input type='hidden' name='itemname' value='"+ response[i].domain +"'/><input type='hidden' name='price' value='"+ response[i].price +"'/><button class='results-table-form-button' type='submit'><span class='material-icons'>add_shopping_cart</span></button></form></td></tr>");
+			}
+
+		} 
+	})
+
+})
+
+
+        function toggleFilter() {
+            var dropdown = $(".filter-window");
+            
+            dropdown.toggleClass("filter-dropdown-active");
+
+            if(dropdown.hasClass("filter-dropdown-active")) {
+                dropdown.width("100%");
+            } else {
+                dropdown.width("0%");
+            }
+                
+        }
+
+$('body').on('click', '.filter-escape', function(event) {
+	toggleFilter();
+})
+
+function applyTLDFilter(filter) {
+	var tldPop = [0,4,3,6,5,8];
+	var globals = [4,5,6,7,8,16,17,19];
+	var newgTLDs = [26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41];
+	var uks = [0,1,2,3,109,229,313,375,552,553,554,555,556,557,560,561];
+	var euros = [0,1,2,3,35,218,71,282,345];
+	var fareast = [22,465,468,475,485]
+	
+	switch(filter) {
+		case "tldPop":
+			clearFilter();
+			$(".filter-tld-search").val(tldPop).trigger('change');
+			break;
+		case "globals":
+			clearFilter();	
+			$(".filter-tld-search").val(globals).trigger('change');
+			break;
+		case "newgTLDs":
+			clearFilter();	
+			$(".filter-tld-search").val(newgTLDs).trigger('change');
+			break;		
+		case "uks":
+			clearFilter();	
+			$(".filter-tld-search").val(uks).trigger('change');
+			break;	
+		case "european":
+			clearFilter();	
+			$(".filter-tld-search").val(euros).trigger('change');
+			break;
+		case "fareast":
+			clearFilter();	
+			$(".filter-tld-search").val(fareast).trigger('change');
+			break;			
+	}
+
+
+}
+
+function clearFilter() {
+	$('.filter-tld-search').val(null).trigger('change');
+}
+
+
+
+
+function toggleLoader(idOfLocation) {
+
+	var location = $("."+idOfLocation);
+	location.toggleClass("loader-active");
+	
+	if(location.hasClass("loader-active")){
+		location.append('<div class="loader-container"><div class="loader"></div></div>');
+		
+	} else {
+		$("." + idOfLocation + " .loader").remove();
+		
+	}
+
+}
+
+
+</script>
+
+</body>
+</html>

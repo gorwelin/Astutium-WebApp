@@ -1,0 +1,2490 @@
+[
+    {
+        "tld": ".co.uk",
+        "price": 7.99
+    },
+    {
+        "tld": ".org.uk",
+        "price": 12.99
+    },
+    {
+        "tld": ".me.uk",
+        "price": 7.99
+    },
+    {
+        "tld": ".uk",
+        "price": 7.99
+    },
+    {
+        "tld": ".com",
+        "price": 12.99
+    },
+    {
+        "tld": ".net",
+        "price": 17.99
+    },
+    {
+        "tld": ".org",
+        "price": 17.99
+    },
+    {
+        "tld": ".biz",
+        "price": 12.99
+    },
+    {
+        "tld": ".info",
+        "price": 17.99
+    },
+    {
+        "tld": ".eu",
+        "price": 7.99
+    },
+    {
+        "tld": ".me",
+        "price": 19.99
+    },
+    {
+        "tld": ".tv",
+        "price": 28.99
+    },
+    {
+        "tld": ".io",
+        "price": 12.99
+    },
+    {
+        "tld": ".sh",
+        "price": 12.99
+    },
+    {
+        "tld": ".ac",
+        "price": 12.99
+    },
+    {
+        "tld": ".ai",
+        "price": 12.99
+    },
+    {
+        "tld": ".mobi",
+        "price": 12.99
+    },
+    {
+        "tld": ".tel",
+        "price": 12.99
+    },
+    {
+        "tld": ".pro",
+        "price": 12.99
+    },
+    {
+        "tld": ".name",
+        "price": 12.99
+    },
+    {
+        "tld": ".jobs",
+        "price": 12.99
+    },
+    {
+        "tld": ".aero",
+        "price": 12.99
+    },
+    {
+        "tld": ".asia",
+        "price": 12.99
+    },
+    {
+        "tld": ".travel",
+        "price": 12.99
+    },
+    {
+        "tld": ".xxx",
+        "price": 12.99
+    },
+    {
+        "tld": ".cat",
+        "price": 12.99
+    },
+    {
+        "tld": ".academy",
+        "price": 12.99
+    },
+    {
+        "tld": ".accountant",
+        "price": 12.99
+    },
+    {
+        "tld": ".accountants",
+        "price": 12.99
+    },
+    {
+        "tld": ".actor",
+        "price": 12.99
+    },
+    {
+        "tld": ".adult",
+        "price": 12.99
+    },
+    {
+        "tld": ".airforce",
+        "price": 12.99
+    },
+    {
+        "tld": ".agency",
+        "price": 12.99
+    },
+    {
+        "tld": ".amsterdam",
+        "price": 12.99
+    },
+    {
+        "tld": ".apartments",
+        "price": 12.99
+    },
+    {
+        "tld": ".archi",
+        "price": 12.99
+    },
+    {
+        "tld": ".army",
+        "price": 12.99
+    },
+    {
+        "tld": ".associates",
+        "price": 12.99
+    },
+    {
+        "tld": ".attorney",
+        "price": 12.99
+    },
+    {
+        "tld": ".auction",
+        "price": 12.99
+    },
+    {
+        "tld": ".audio",
+        "price": 12.99
+    },
+    {
+        "tld": ".band",
+        "price": 12.99
+    },
+    {
+        "tld": ".bank",
+        "price": 12.99
+    },
+    {
+        "tld": ".bar",
+        "price": 12.99
+    },
+    {
+        "tld": ".bargains",
+        "price": 12.99
+    },
+    {
+        "tld": ".bayern",
+        "price": 12.99
+    },
+    {
+        "tld": ".beer",
+        "price": 12.99
+    },
+    {
+        "tld": ".berlin",
+        "price": 12.99
+    },
+    {
+        "tld": ".best",
+        "price": 12.99
+    },
+    {
+        "tld": ".bid",
+        "price": 12.99
+    },
+    {
+        "tld": ".bike",
+        "price": 12.99
+    },
+    {
+        "tld": ".bingo",
+        "price": 12.99
+    },
+    {
+        "tld": ".bio",
+        "price": 12.99
+    },
+    {
+        "tld": ".blackfriday",
+        "price": 12.99
+    },
+    {
+        "tld": ".blue",
+        "price": 12.99
+    },
+    {
+        "tld": ".boutique",
+        "price": 12.99
+    },
+    {
+        "tld": ".brussels",
+        "price": 12.99
+    },
+    {
+        "tld": ".build",
+        "price": 12.99
+    },
+    {
+        "tld": ".builders",
+        "price": 12.99
+    },
+    {
+        "tld": ".business",
+        "price": 12.99
+    },
+    {
+        "tld": ".buzz",
+        "price": 12.99
+    },
+    {
+        "tld": ".bzh",
+        "price": 12.99
+    },
+    {
+        "tld": ".cab",
+        "price": 12.99
+    },
+    {
+        "tld": ".cafe",
+        "price": 12.99
+    },
+    {
+        "tld": ".camera",
+        "price": 12.99
+    },
+    {
+        "tld": ".camp",
+        "price": 12.99
+    },
+    {
+        "tld": ".capetown",
+        "price": 12.99
+    },
+    {
+        "tld": ".capital",
+        "price": 12.99
+    },
+    {
+        "tld": ".cards",
+        "price": 12.99
+    },
+    {
+        "tld": ".care",
+        "price": 12.99
+    },
+    {
+        "tld": ".careers",
+        "price": 12.99
+    },
+    {
+        "tld": ".casa",
+        "price": 12.99
+    },
+    {
+        "tld": ".casino",
+        "price": 12.99
+    },
+    {
+        "tld": ".cash",
+        "price": 12.99
+    },
+    {
+        "tld": ".catering",
+        "price": 12.99
+    },
+    {
+        "tld": ".center",
+        "price": 12.99
+    },
+    {
+        "tld": ".ceo",
+        "price": 12.99
+    },
+    {
+        "tld": ".chat",
+        "price": 12.99
+    },
+    {
+        "tld": ".cheap",
+        "price": 12.99
+    },
+    {
+        "tld": ".christmas",
+        "price": 12.99
+    },
+    {
+        "tld": ".church",
+        "price": 12.99
+    },
+    {
+        "tld": ".city",
+        "price": 12.99
+    },
+    {
+        "tld": ".claims",
+        "price": 12.99
+    },
+    {
+        "tld": ".cleaning",
+        "price": 12.99
+    },
+    {
+        "tld": ".click",
+        "price": 12.99
+    },
+    {
+        "tld": ".clinic",
+        "price": 12.99
+    },
+    {
+        "tld": ".clothing",
+        "price": 12.99
+    },
+    {
+        "tld": ".club",
+        "price": 12.99
+    },
+    {
+        "tld": ".coach",
+        "price": 12.99
+    },
+    {
+        "tld": ".codes",
+        "price": 12.99
+    },
+    {
+        "tld": ".coffee",
+        "price": 12.99
+    },
+    {
+        "tld": ".college",
+        "price": 12.99
+    },
+    {
+        "tld": ".cologne",
+        "price": 12.99
+    },
+    {
+        "tld": ".community",
+        "price": 12.99
+    },
+    {
+        "tld": ".company",
+        "price": 12.99
+    },
+    {
+        "tld": ".computer",
+        "price": 12.99
+    },
+    {
+        "tld": ".condos",
+        "price": 12.99
+    },
+    {
+        "tld": ".construction",
+        "price": 12.99
+    },
+    {
+        "tld": ".consulting",
+        "price": 12.99
+    },
+    {
+        "tld": ".contractors",
+        "price": 12.99
+    },
+    {
+        "tld": ".cooking",
+        "price": 12.99
+    },
+    {
+        "tld": ".cool",
+        "price": 12.99
+    },
+    {
+        "tld": ".coupons",
+        "price": 12.99
+    },
+    {
+        "tld": ".courses",
+        "price": 12.99
+    },
+    {
+        "tld": ".credit",
+        "price": 12.99
+    },
+    {
+        "tld": ".creditcard",
+        "price": 12.99
+    },
+    {
+        "tld": ".cricket",
+        "price": 12.99
+    },
+    {
+        "tld": ".cruises",
+        "price": 12.99
+    },
+    {
+        "tld": ".country",
+        "price": 12.99
+    },
+    {
+        "tld": ".cymru",
+        "price": 12.99
+    },
+    {
+        "tld": ".dance",
+        "price": 12.99
+    },
+    {
+        "tld": ".date",
+        "price": 12.99
+    },
+    {
+        "tld": ".dating",
+        "price": 12.99
+    },
+    {
+        "tld": ".deals",
+        "price": 12.99
+    },
+    {
+        "tld": ".degree",
+        "price": 12.99
+    },
+    {
+        "tld": ".delivery",
+        "price": 12.99
+    },
+    {
+        "tld": ".democrat",
+        "price": 12.99
+    },
+    {
+        "tld": ".dental",
+        "price": 12.99
+    },
+    {
+        "tld": ".dentist",
+        "price": 12.99
+    },
+    {
+        "tld": ".desi",
+        "price": 12.99
+    },
+    {
+        "tld": ".design",
+        "price": 12.99
+    },
+    {
+        "tld": ".diamonds",
+        "price": 12.99
+    },
+    {
+        "tld": ".diet",
+        "price": 12.99
+    },
+    {
+        "tld": ".digital",
+        "price": 12.99
+    },
+    {
+        "tld": ".direct",
+        "price": 12.99
+    },
+    {
+        "tld": ".directory",
+        "price": 12.99
+    },
+    {
+        "tld": ".dog",
+        "price": 12.99
+    },
+    {
+        "tld": ".domains",
+        "price": 12.99
+    },
+    {
+        "tld": ".download",
+        "price": 12.99
+    },
+    {
+        "tld": ".discount",
+        "price": 12.99
+    },
+    {
+        "tld": ".durban",
+        "price": 12.99
+    },
+    {
+        "tld": ".education",
+        "price": 12.99
+    },
+    {
+        "tld": ".email",
+        "price": 12.99
+    },
+    {
+        "tld": ".energy",
+        "price": 12.99
+    },
+    {
+        "tld": ".engineer",
+        "price": 12.99
+    },
+    {
+        "tld": ".engineering",
+        "price": 12.99
+    },
+    {
+        "tld": ".enterprises",
+        "price": 12.99
+    },
+    {
+        "tld": ".equipment",
+        "price": 12.99
+    },
+    {
+        "tld": ".estate",
+        "price": 12.99
+    },
+    {
+        "tld": ".eus",
+        "price": 12.99
+    },
+    {
+        "tld": ".events",
+        "price": 12.99
+    },
+    {
+        "tld": ".exchange",
+        "price": 12.99
+    },
+    {
+        "tld": ".expert",
+        "price": 12.99
+    },
+    {
+        "tld": ".exposed",
+        "price": 12.99
+    },
+    {
+        "tld": ".express",
+        "price": 12.99
+    },
+    {
+        "tld": ".fail",
+        "price": 12.99
+    },
+    {
+        "tld": ".faith",
+        "price": 12.99
+    },
+    {
+        "tld": ".fans",
+        "price": 12.99
+    },
+    {
+        "tld": ".farm",
+        "price": 12.99
+    },
+    {
+        "tld": ".fashion",
+        "price": 12.99
+    },
+    {
+        "tld": ".finance",
+        "price": 12.99
+    },
+    {
+        "tld": ".financial",
+        "price": 12.99
+    },
+    {
+        "tld": ".fish",
+        "price": 12.99
+    },
+    {
+        "tld": ".fishing",
+        "price": 12.99
+    },
+    {
+        "tld": ".fit",
+        "price": 12.99
+    },
+    {
+        "tld": ".fitness",
+        "price": 12.99
+    },
+    {
+        "tld": ".flights",
+        "price": 12.99
+    },
+    {
+        "tld": ".florist",
+        "price": 12.99
+    },
+    {
+        "tld": ".flowers",
+        "price": 12.99
+    },
+    {
+        "tld": ".football",
+        "price": 12.99
+    },
+    {
+        "tld": ".forsale",
+        "price": 12.99
+    },
+    {
+        "tld": ".foundation",
+        "price": 12.99
+    },
+    {
+        "tld": ".fund",
+        "price": 12.99
+    },
+    {
+        "tld": ".furniture",
+        "price": 12.99
+    },
+    {
+        "tld": ".futbol",
+        "price": 12.99
+    },
+    {
+        "tld": ".fyi",
+        "price": 12.99
+    },
+    {
+        "tld": ".garden",
+        "price": 12.99
+    },
+    {
+        "tld": ".gallery",
+        "price": 12.99
+    },
+    {
+        "tld": ".gent",
+        "price": 12.99
+    },
+    {
+        "tld": ".gift",
+        "price": 12.99
+    },
+    {
+        "tld": ".gifts",
+        "price": 12.99
+    },
+    {
+        "tld": ".gives",
+        "price": 12.99
+    },
+    {
+        "tld": ".glass",
+        "price": 12.99
+    },
+    {
+        "tld": ".global",
+        "price": 12.99
+    },
+    {
+        "tld": ".gold",
+        "price": 12.99
+    },
+    {
+        "tld": ".golf",
+        "price": 12.99
+    },
+    {
+        "tld": ".graphics",
+        "price": 12.99
+    },
+    {
+        "tld": ".gratis",
+        "price": 12.99
+    },
+    {
+        "tld": ".green",
+        "price": 12.99
+    },
+    {
+        "tld": ".gripe",
+        "price": 12.99
+    },
+    {
+        "tld": ".guide",
+        "price": 12.99
+    },
+    {
+        "tld": ".guitars",
+        "price": 12.99
+    },
+    {
+        "tld": ".guru",
+        "price": 12.99
+    },
+    {
+        "tld": ".hamburg",
+        "price": 12.99
+    },
+    {
+        "tld": ".haus",
+        "price": 12.99
+    },
+    {
+        "tld": ".healthcare",
+        "price": 12.99
+    },
+    {
+        "tld": ".help",
+        "price": 12.99
+    },
+    {
+        "tld": ".hiphop",
+        "price": 12.99
+    },
+    {
+        "tld": ".hiv",
+        "price": 12.99
+    },
+    {
+        "tld": ".hockey",
+        "price": 12.99
+    },
+    {
+        "tld": ".holdings",
+        "price": 12.99
+    },
+    {
+        "tld": ".holiday",
+        "price": 12.99
+    },
+    {
+        "tld": ".horse",
+        "price": 12.99
+    },
+    {
+        "tld": ".host",
+        "price": 12.99
+    },
+    {
+        "tld": ".hosting",
+        "price": 12.99
+    },
+    {
+        "tld": ".house",
+        "price": 12.99
+    },
+    {
+        "tld": ".how",
+        "price": 12.99
+    },
+    {
+        "tld": ".irish",
+        "price": 12.99
+    },
+    {
+        "tld": ".immo",
+        "price": 12.99
+    },
+    {
+        "tld": ".immobilien",
+        "price": 12.99
+    },
+    {
+        "tld": ".ink",
+        "price": 12.99
+    },
+    {
+        "tld": ".institute",
+        "price": 12.99
+    },
+    {
+        "tld": ".insure",
+        "price": 12.99
+    },
+    {
+        "tld": ".international",
+        "price": 12.99
+    },
+    {
+        "tld": ".investments",
+        "price": 12.99
+    },
+    {
+        "tld": ".jetzt",
+        "price": 12.99
+    },
+    {
+        "tld": ".jewelry",
+        "price": 12.99
+    },
+    {
+        "tld": ".joburg",
+        "price": 12.99
+    },
+    {
+        "tld": ".juegos",
+        "price": 12.99
+    },
+    {
+        "tld": ".kaufen",
+        "price": 12.99
+    },
+    {
+        "tld": ".kim",
+        "price": 12.99
+    },
+    {
+        "tld": ".kitchen",
+        "price": 12.99
+    },
+    {
+        "tld": ".kiwi",
+        "price": 12.99
+    },
+    {
+        "tld": ".koeln",
+        "price": 12.99
+    },
+    {
+        "tld": ".land",
+        "price": 12.99
+    },
+    {
+        "tld": ".lat",
+        "price": 12.99
+    },
+    {
+        "tld": ".lawyer",
+        "price": 12.99
+    },
+    {
+        "tld": ".lease",
+        "price": 12.99
+    },
+    {
+        "tld": ".legal",
+        "price": 12.99
+    },
+    {
+        "tld": ".lgbt",
+        "price": 12.99
+    },
+    {
+        "tld": ".life",
+        "price": 12.99
+    },
+    {
+        "tld": ".lighting",
+        "price": 12.99
+    },
+    {
+        "tld": ".limited",
+        "price": 12.99
+    },
+    {
+        "tld": ".limo",
+        "price": 12.99
+    },
+    {
+        "tld": ".link",
+        "price": 12.99
+    },
+    {
+        "tld": ".live",
+        "price": 12.99
+    },
+    {
+        "tld": ".loan",
+        "price": 12.99
+    },
+    {
+        "tld": ".loans",
+        "price": 12.99
+    },
+    {
+        "tld": ".lol",
+        "price": 12.99
+    },
+    {
+        "tld": ".london",
+        "price": 12.99
+    },
+    {
+        "tld": ".love",
+        "price": 12.99
+    },
+    {
+        "tld": ".luxury",
+        "price": 12.99
+    },
+    {
+        "tld": ".maison",
+        "price": 12.99
+    },
+    {
+        "tld": ".management",
+        "price": 12.99
+    },
+    {
+        "tld": ".market",
+        "price": 12.99
+    },
+    {
+        "tld": ".markets",
+        "price": 12.99
+    },
+    {
+        "tld": ".marketing",
+        "price": 12.99
+    },
+    {
+        "tld": ".mba",
+        "price": 12.99
+    },
+    {
+        "tld": ".media",
+        "price": 12.99
+    },
+    {
+        "tld": ".melbourne",
+        "price": 12.99
+    },
+    {
+        "tld": ".memorial",
+        "price": 12.99
+    },
+    {
+        "tld": ".men",
+        "price": 12.99
+    },
+    {
+        "tld": ".menu",
+        "price": 12.99
+    },
+    {
+        "tld": ".miami",
+        "price": 12.99
+    },
+    {
+        "tld": ".moe",
+        "price": 12.99
+    },
+    {
+        "tld": ".moda",
+        "price": 12.99
+    },
+    {
+        "tld": ".money",
+        "price": 12.99
+    },
+    {
+        "tld": ".moscow",
+        "price": 12.99
+    },
+    {
+        "tld": ".mortgage",
+        "price": 12.99
+    },
+    {
+        "tld": ".movie",
+        "price": 12.99
+    },
+    {
+        "tld": ".nagoya",
+        "price": 12.99
+    },
+    {
+        "tld": ".navy",
+        "price": 12.99
+    },
+    {
+        "tld": ".network",
+        "price": 12.99
+    },
+    {
+        "tld": ".news",
+        "price": 12.99
+    },
+    {
+        "tld": ".ninja",
+        "price": 12.99
+    },
+    {
+        "tld": ".nrw",
+        "price": 12.99
+    },
+    {
+        "tld": ".nyc",
+        "price": 12.99
+    },
+    {
+        "tld": ".okinawa",
+        "price": 12.99
+    },
+    {
+        "tld": ".onl",
+        "price": 12.99
+    },
+    {
+        "tld": ".online",
+        "price": 12.99
+    },
+    {
+        "tld": ".organic",
+        "price": 12.99
+    },
+    {
+        "tld": ".osaka",
+        "price": 12.99
+    },
+    {
+        "tld": ".paris",
+        "price": 12.99
+    },
+    {
+        "tld": ".partners",
+        "price": 12.99
+    },
+    {
+        "tld": ".parts",
+        "price": 12.99
+    },
+    {
+        "tld": ".party",
+        "price": 12.99
+    },
+    {
+        "tld": ".photo",
+        "price": 12.99
+    },
+    {
+        "tld": ".photography",
+        "price": 12.99
+    },
+    {
+        "tld": ".photos",
+        "price": 12.99
+    },
+    {
+        "tld": ".pics",
+        "price": 12.99
+    },
+    {
+        "tld": ".pictures",
+        "price": 12.99
+    },
+    {
+        "tld": ".pink",
+        "price": 12.99
+    },
+    {
+        "tld": ".pizza",
+        "price": 12.99
+    },
+    {
+        "tld": ".physio",
+        "price": 12.99
+    },
+    {
+        "tld": ".place",
+        "price": 12.99
+    },
+    {
+        "tld": ".plumbing",
+        "price": 12.99
+    },
+    {
+        "tld": ".plus",
+        "price": 12.99
+    },
+    {
+        "tld": ".poker",
+        "price": 12.99
+    },
+    {
+        "tld": ".porn",
+        "price": 12.99
+    },
+    {
+        "tld": ".press",
+        "price": 12.99
+    },
+    {
+        "tld": ".productions",
+        "price": 12.99
+    },
+    {
+        "tld": ".properties",
+        "price": 12.99
+    },
+    {
+        "tld": ".property",
+        "price": 12.99
+    },
+    {
+        "tld": ".pub",
+        "price": 12.99
+    },
+    {
+        "tld": ".quebec",
+        "price": 12.99
+    },
+    {
+        "tld": ".qpon",
+        "price": 12.99
+    },
+    {
+        "tld": ".racing",
+        "price": 12.99
+    },
+    {
+        "tld": ".recipes",
+        "price": 12.99
+    },
+    {
+        "tld": ".red",
+        "price": 12.99
+    },
+    {
+        "tld": ".rehab",
+        "price": 12.99
+    },
+    {
+        "tld": ".reisen",
+        "price": 12.99
+    },
+    {
+        "tld": ".rent",
+        "price": 12.99
+    },
+    {
+        "tld": ".rentals",
+        "price": 12.99
+    },
+    {
+        "tld": ".repair",
+        "price": 12.99
+    },
+    {
+        "tld": ".report",
+        "price": 12.99
+    },
+    {
+        "tld": ".republican",
+        "price": 12.99
+    },
+    {
+        "tld": ".rest",
+        "price": 12.99
+    },
+    {
+        "tld": ".restaurant",
+        "price": 12.99
+    },
+    {
+        "tld": ".review",
+        "price": 12.99
+    },
+    {
+        "tld": ".reviews",
+        "price": 12.99
+    },
+    {
+        "tld": ".rich",
+        "price": 12.99
+    },
+    {
+        "tld": ".rip",
+        "price": 12.99
+    },
+    {
+        "tld": ".rocks",
+        "price": 12.99
+    },
+    {
+        "tld": ".rodeo",
+        "price": 12.99
+    },
+    {
+        "tld": ".ruhr",
+        "price": 12.99
+    },
+    {
+        "tld": ".run",
+        "price": 12.99
+    },
+    {
+        "tld": ".ryukyu",
+        "price": 12.99
+    },
+    {
+        "tld": ".saarland",
+        "price": 12.99
+    },
+    {
+        "tld": ".sale",
+        "price": 12.99
+    },
+    {
+        "tld": ".sarl",
+        "price": 12.99
+    },
+    {
+        "tld": ".science",
+        "price": 12.99
+    },
+    {
+        "tld": ".school",
+        "price": 12.99
+    },
+    {
+        "tld": ".schule",
+        "price": 12.99
+    },
+    {
+        "tld": ".scot",
+        "price": 12.99
+    },
+    {
+        "tld": ".services",
+        "price": 12.99
+    },
+    {
+        "tld": ".sexy",
+        "price": 12.99
+    },
+    {
+        "tld": ".shiksha",
+        "price": 12.99
+    },
+    {
+        "tld": ".shoes",
+        "price": 12.99
+    },
+    {
+        "tld": ".show",
+        "price": 12.99
+    },
+    {
+        "tld": ".singles",
+        "price": 12.99
+    },
+    {
+        "tld": ".site",
+        "price": 12.99
+    },
+    {
+        "tld": ".soccer",
+        "price": 12.99
+    },
+    {
+        "tld": ".social",
+        "price": 12.99
+    },
+    {
+        "tld": ".software",
+        "price": 12.99
+    },
+    {
+        "tld": ".solar",
+        "price": 12.99
+    },
+    {
+        "tld": ".solutions",
+        "price": 12.99
+    },
+    {
+        "tld": ".soy",
+        "price": 12.99
+    },
+    {
+        "tld": ".space",
+        "price": 12.99
+    },
+    {
+        "tld": ".studio",
+        "price": 12.99
+    },
+    {
+        "tld": ".style",
+        "price": 12.99
+    },
+    {
+        "tld": ".sucks",
+        "price": 12.99
+    },
+    {
+        "tld": ".supplies",
+        "price": 12.99
+    },
+    {
+        "tld": ".supply",
+        "price": 12.99
+    },
+    {
+        "tld": ".support",
+        "price": 12.99
+    },
+    {
+        "tld": ".surf",
+        "price": 12.99
+    },
+    {
+        "tld": ".surgery",
+        "price": 12.99
+    },
+    {
+        "tld": ".sydney",
+        "price": 12.99
+    },
+    {
+        "tld": ".systems",
+        "price": 12.99
+    },
+    {
+        "tld": ".tattoo",
+        "price": 12.99
+    },
+    {
+        "tld": ".tax",
+        "price": 12.99
+    },
+    {
+        "tld": ".taxi",
+        "price": 12.99
+    },
+    {
+        "tld": ".team",
+        "price": 12.99
+    },
+    {
+        "tld": ".tech",
+        "price": 12.99
+    },
+    {
+        "tld": ".technology",
+        "price": 12.99
+    },
+    {
+        "tld": ".tennis",
+        "price": 12.99
+    },
+    {
+        "tld": ".theater",
+        "price": 12.99
+    },
+    {
+        "tld": ".tienda",
+        "price": 12.99
+    },
+    {
+        "tld": ".tips",
+        "price": 12.99
+    },
+    {
+        "tld": ".tires",
+        "price": 12.99
+    },
+    {
+        "tld": ".tirol",
+        "price": 12.99
+    },
+    {
+        "tld": ".today",
+        "price": 12.99
+    },
+    {
+        "tld": ".tokyo",
+        "price": 12.99
+    },
+    {
+        "tld": ".tools",
+        "price": 12.99
+    },
+    {
+        "tld": ".tours",
+        "price": 12.99
+    },
+    {
+        "tld": ".town",
+        "price": 12.99
+    },
+    {
+        "tld": ".toys",
+        "price": 12.99
+    },
+    {
+        "tld": ".trade",
+        "price": 12.99
+    },
+    {
+        "tld": ".training",
+        "price": 12.99
+    },
+    {
+        "tld": ".university",
+        "price": 12.99
+    },
+    {
+        "tld": ".uno",
+        "price": 12.99
+    },
+    {
+        "tld": ".vacations",
+        "price": 12.99
+    },
+    {
+        "tld": ".vegas",
+        "price": 12.99
+    },
+    {
+        "tld": ".vet",
+        "price": 12.99
+    },
+    {
+        "tld": ".ventures",
+        "price": 12.99
+    },
+    {
+        "tld": ".versicherung",
+        "price": 12.99
+    },
+    {
+        "tld": ".viajes",
+        "price": 12.99
+    },
+    {
+        "tld": ".video",
+        "price": 12.99
+    },
+    {
+        "tld": ".villas",
+        "price": 12.99
+    },
+    {
+        "tld": ".vision",
+        "price": 12.99
+    },
+    {
+        "tld": ".vlaanderen",
+        "price": 12.99
+    },
+    {
+        "tld": ".vodka",
+        "price": 12.99
+    },
+    {
+        "tld": ".vote",
+        "price": 12.99
+    },
+    {
+        "tld": ".voting",
+        "price": 12.99
+    },
+    {
+        "tld": ".voto",
+        "price": 12.99
+    },
+    {
+        "tld": ".voyage",
+        "price": 12.99
+    },
+    {
+        "tld": ".wales",
+        "price": 12.99
+    },
+    {
+        "tld": ".wang",
+        "price": 12.99
+    },
+    {
+        "tld": ".watch",
+        "price": 12.99
+    },
+    {
+        "tld": ".webcam",
+        "price": 12.99
+    },
+    {
+        "tld": ".website",
+        "price": 12.99
+    },
+    {
+        "tld": ".wedding",
+        "price": 12.99
+    },
+    {
+        "tld": ".wien",
+        "price": 12.99
+    },
+    {
+        "tld": ".wiki",
+        "price": 12.99
+    },
+    {
+        "tld": ".win",
+        "price": 12.99
+    },
+    {
+        "tld": ".works",
+        "price": 12.99
+    },
+    {
+        "tld": ".world",
+        "price": 12.99
+    },
+    {
+        "tld": ".wtf",
+        "price": 12.99
+    },
+    {
+        "tld": ".xyz",
+        "price": 12.99
+    },
+    {
+        "tld": ".yoga",
+        "price": 12.99
+    },
+    {
+        "tld": ".yokohama",
+        "price": 12.99
+    },
+    {
+        "tld": ".zone",
+        "price": 12.99
+    },
+    {
+        "tld": ".af",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.af",
+        "price": 12.99
+    },
+    {
+        "tld": ".org.af",
+        "price": 12.99
+    },
+    {
+        "tld": ".net.af",
+        "price": 12.99
+    },
+    {
+        "tld": ".ag",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.ag",
+        "price": 12.99
+    },
+    {
+        "tld": ".org.ag",
+        "price": 12.99
+    },
+    {
+        "tld": ".am",
+        "price": 12.99
+    },
+    {
+        "tld": ".at",
+        "price": 12.99
+    },
+    {
+        "tld": ".co.at",
+        "price": 12.99
+    },
+    {
+        "tld": ".or.at",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.au",
+        "price": 12.99
+    },
+    {
+        "tld": ".net.au",
+        "price": 12.99
+    },
+    {
+        "tld": ".org.au",
+        "price": 12.99
+    },
+    {
+        "tld": ".asn.au",
+        "price": 12.99
+    },
+    {
+        "tld": ".id.au",
+        "price": 12.99
+    },
+    {
+        "tld": ".be",
+        "price": 12.99
+    },
+    {
+        "tld": ".bz",
+        "price": 12.99
+    },
+    {
+        "tld": ".co.bz",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.bz",
+        "price": 12.99
+    },
+    {
+        "tld": ".net.bz",
+        "price": 12.99
+    },
+    {
+        "tld": ".ca",
+        "price": 12.99
+    },
+    {
+        "tld": ".cc",
+        "price": 12.99
+    },
+    {
+        "tld": ".ch",
+        "price": 12.99
+    },
+    {
+        "tld": ".cl",
+        "price": 12.99
+    },
+    {
+        "tld": ".cm",
+        "price": 12.99
+    },
+    {
+        "tld": ".co.cm",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.cm",
+        "price": 12.99
+    },
+    {
+        "tld": ".co",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.co",
+        "price": 12.99
+    },
+    {
+        "tld": ".net.co",
+        "price": 12.99
+    },
+    {
+        "tld": ".nom.co",
+        "price": 12.99
+    },
+    {
+        "tld": ".org.co",
+        "price": 12.99
+    },
+    {
+        "tld": ".cx",
+        "price": 12.99
+    },
+    {
+        "tld": ".cz",
+        "price": 12.99
+    },
+    {
+        "tld": ".de",
+        "price": 12.99
+    },
+    {
+        "tld": ".dk",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.de",
+        "price": 12.99
+    },
+    {
+        "tld": ".es",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.es",
+        "price": 12.99
+    },
+    {
+        "tld": ".nom.es",
+        "price": 12.99
+    },
+    {
+        "tld": ".org.es",
+        "price": 12.99
+    },
+    {
+        "tld": ".fi",
+        "price": 12.99
+    },
+    {
+        "tld": ".fm",
+        "price": 12.99
+    },
+    {
+        "tld": ".art",
+        "price": 12.99
+    },
+    {
+        "tld": ".fr",
+        "price": 12.99
+    },
+    {
+        "tld": ".gr",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.gr",
+        "price": 12.99
+    },
+    {
+        "tld": ".net.gr",
+        "price": 12.99
+    },
+    {
+        "tld": ".org.gr",
+        "price": 12.99
+    },
+    {
+        "tld": ".edu.gr",
+        "price": 12.99
+    },
+    {
+        "tld": ".gs",
+        "price": 12.99
+    },
+    {
+        "tld": ".gy",
+        "price": 12.99
+    },
+    {
+        "tld": ".co.gy",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.gy",
+        "price": 12.99
+    },
+    {
+        "tld": ".net.gy",
+        "price": 12.99
+    },
+    {
+        "tld": ".hu",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.hn",
+        "price": 12.99
+    },
+    {
+        "tld": ".ie",
+        "price": 12.99
+    },
+    {
+        "tld": ".it",
+        "price": 12.99
+    },
+    {
+        "tld": ".co.il",
+        "price": 12.99
+    },
+    {
+        "tld": ".org.il",
+        "price": 12.99
+    },
+    {
+        "tld": ".im",
+        "price": 12.99
+    },
+    {
+        "tld": ".co.im",
+        "price": 12.99
+    },
+    {
+        "tld": ".org.im",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.im",
+        "price": 12.99
+    },
+    {
+        "tld": ".net.im",
+        "price": 12.99
+    },
+    {
+        "tld": ".in",
+        "price": 12.99
+    },
+    {
+        "tld": ".co.in",
+        "price": 12.99
+    },
+    {
+        "tld": ".net.in",
+        "price": 12.99
+    },
+    {
+        "tld": ".org.in",
+        "price": 12.99
+    },
+    {
+        "tld": ".firm.in",
+        "price": 12.99
+    },
+    {
+        "tld": ".gen.in",
+        "price": 12.99
+    },
+    {
+        "tld": ".ind.in",
+        "price": 12.99
+    },
+    {
+        "tld": ".jp",
+        "price": 12.99
+    },
+    {
+        "tld": ".ki",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.ki",
+        "price": 12.99
+    },
+    {
+        "tld": ".la",
+        "price": 12.99
+    },
+    {
+        "tld": ".lc",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.lc",
+        "price": 12.99
+    },
+    {
+        "tld": ".li",
+        "price": 12.99
+    },
+    {
+        "tld": ".lt",
+        "price": 12.99
+    },
+    {
+        "tld": ".lu",
+        "price": 12.99
+    },
+    {
+        "tld": ".md",
+        "price": 12.99
+    },
+    {
+        "tld": ".mn",
+        "price": 12.99
+    },
+    {
+        "tld": ".ms",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.mu",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.mx",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.nf",
+        "price": 12.99
+    },
+    {
+        "tld": ".nl",
+        "price": 12.99
+    },
+    {
+        "tld": ".co.no",
+        "price": 12.99
+    },
+    {
+        "tld": ".nu",
+        "price": 12.99
+    },
+    {
+        "tld": ".co.nz",
+        "price": 12.99
+    },
+    {
+        "tld": ".net.nz",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.ph",
+        "price": 12.99
+    },
+    {
+        "tld": ".org.ph",
+        "price": 12.99
+    },
+    {
+        "tld": ".org.nz",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.pk",
+        "price": 12.99
+    },
+    {
+        "tld": ".biz.pl",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.pl",
+        "price": 12.99
+    },
+    {
+        "tld": ".pw",
+        "price": 12.99
+    },
+    {
+        "tld": ".re",
+        "price": 12.99
+    },
+    {
+        "tld": ".ru",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.sb",
+        "price": 12.99
+    },
+    {
+        "tld": ".se",
+        "price": 12.99
+    },
+    {
+        "tld": ".so",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.so",
+        "price": 12.99
+    },
+    {
+        "tld": ".net.so",
+        "price": 12.99
+    },
+    {
+        "tld": ".org.so",
+        "price": 12.99
+    },
+    {
+        "tld": ".su",
+        "price": 12.99
+    },
+    {
+        "tld": ".tc",
+        "price": 12.99
+    },
+    {
+        "tld": ".tm",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.tw",
+        "price": 12.99
+    },
+    {
+        "tld": ".org.tw",
+        "price": 12.99
+    },
+    {
+        "tld": ".club.tw",
+        "price": 12.99
+    },
+    {
+        "tld": ".idv.tw",
+        "price": 12.99
+    },
+    {
+        "tld": ".us",
+        "price": 12.99
+    },
+    {
+        "tld": ".vg",
+        "price": 12.99
+    },
+    {
+        "tld": ".ws",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.br",
+        "price": 12.99
+    },
+    {
+        "tld": ".net.br",
+        "price": 12.99
+    },
+    {
+        "tld": ".org.br",
+        "price": 12.99
+    },
+    {
+        "tld": ".co.za",
+        "price": 12.99
+    },
+    {
+        "tld": ".org.za",
+        "price": 12.99
+    },
+    {
+        "tld": ".ae",
+        "price": 12.99
+    },
+    {
+        "tld": ".gl",
+        "price": 12.99
+    },
+    {
+        "tld": ".co.gl",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.gl",
+        "price": 12.99
+    },
+    {
+        "tld": ".edu.gl",
+        "price": 12.99
+    },
+    {
+        "tld": ".net.gl",
+        "price": 12.99
+    },
+    {
+        "tld": ".org.gl",
+        "price": 12.99
+    },
+    {
+        "tld": ".gd",
+        "price": 12.99
+    },
+    {
+        "tld": ".ht",
+        "price": 12.99
+    },
+    {
+        "tld": ".adult.ht",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.ht",
+        "price": 12.99
+    },
+    {
+        "tld": ".info.ht",
+        "price": 12.99
+    },
+    {
+        "tld": ".net.ht",
+        "price": 12.99
+    },
+    {
+        "tld": ".hn",
+        "price": 12.99
+    },
+    {
+        "tld": ".net.hn",
+        "price": 12.99
+    },
+    {
+        "tld": ".org.hn",
+        "price": 12.99
+    },
+    {
+        "tld": ".org.ht",
+        "price": 12.99
+    },
+    {
+        "tld": ".kr",
+        "price": 12.99
+    },
+    {
+        "tld": ".co.kr",
+        "price": 12.99
+    },
+    {
+        "tld": ".ne.kr",
+        "price": 12.99
+    },
+    {
+        "tld": ".or.kr",
+        "price": 12.99
+    },
+    {
+        "tld": ".pe.kr",
+        "price": 12.99
+    },
+    {
+        "tld": ".re.kr",
+        "price": 12.99
+    },
+    {
+        "tld": ".seoul.kr",
+        "price": 12.99
+    },
+    {
+        "tld": ".net.ki",
+        "price": 12.99
+    },
+    {
+        "tld": ".org.ki",
+        "price": 12.99
+    },
+    {
+        "tld": ".org.lc",
+        "price": 12.99
+    },
+    {
+        "tld": ".net.lc",
+        "price": 12.99
+    },
+    {
+        "tld": ".mg",
+        "price": 12.99
+    },
+    {
+        "tld": ".bi",
+        "price": 12.99
+    },
+    {
+        "tld": ".co.bi",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.bi",
+        "price": 12.99
+    },
+    {
+        "tld": ".info.bi",
+        "price": 12.99
+    },
+    {
+        "tld": ".sx",
+        "price": 12.99
+    },
+    {
+        "tld": ".tl",
+        "price": 12.99
+    },
+    {
+        "tld": ".to",
+        "price": 12.99
+    },
+    {
+        "tld": ".ua",
+        "price": 12.99
+    },
+    {
+        "tld": ".ltd.uk",
+        "price": 12.99
+    },
+    {
+        "tld": ".plc.uk",
+        "price": 12.99
+    },
+    {
+        "tld": ".sch.uk",
+        "price": 12.99
+    },
+    {
+        "tld": ".net.uk",
+        "price": 12.99
+    },
+    {
+        "tld": ".ac.uk",
+        "price": 12.99
+    },
+    {
+        "tld": ".gov.uk",
+        "price": 12.99
+    },
+    {
+        "tld": ".ltd.co.im",
+        "price": 12.99
+    },
+    {
+        "tld": ".plc.co.im",
+        "price": 12.99
+    },
+    {
+        "tld": ".uk.com",
+        "price": 12.99
+    },
+    {
+        "tld": ".uk.net",
+        "price": 12.99
+    },
+    {
+        "tld": ".gb.net",
+        "price": 12.99
+    },
+    {
+        "tld": ".eu.com",
+        "price": 12.99
+    },
+    {
+        "tld": ".co.com",
+        "price": 12.99
+    },
+    {
+        "tld": ".ae.org",
+        "price": 12.99
+    },
+    {
+        "tld": ".br.com",
+        "price": 12.99
+    },
+    {
+        "tld": ".cn.com",
+        "price": 12.99
+    },
+    {
+        "tld": ".de.com",
+        "price": 12.99
+    },
+    {
+        "tld": ".gr.com",
+        "price": 12.99
+    },
+    {
+        "tld": ".hu.net",
+        "price": 12.99
+    },
+    {
+        "tld": ".in.net",
+        "price": 12.99
+    },
+    {
+        "tld": ".jpn.com",
+        "price": 12.99
+    },
+    {
+        "tld": ".jp.net",
+        "price": 12.99
+    },
+    {
+        "tld": ".mex.com",
+        "price": 12.99
+    },
+    {
+        "tld": ".ru.com",
+        "price": 12.99
+    },
+    {
+        "tld": ".sa.com",
+        "price": 12.99
+    },
+    {
+        "tld": ".se.net",
+        "price": 12.99
+    },
+    {
+        "tld": ".us.com",
+        "price": 12.99
+    },
+    {
+        "tld": ".us.org",
+        "price": 12.99
+    },
+    {
+        "tld": ".za.com",
+        "price": 12.99
+    },
+    {
+        "tld": ".co.bw",
+        "price": 12.99
+    },
+    {
+        "tld": ".net.bw",
+        "price": 12.99
+    },
+    {
+        "tld": ".org.bw",
+        "price": 12.99
+    },
+    {
+        "tld": ".sc",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.tr",
+        "price": 12.99
+    },
+    {
+        "tld": ".biz.tr",
+        "price": 12.99
+    },
+    {
+        "tld": ".info.tr",
+        "price": 12.99
+    },
+    {
+        "tld": ".tv.tr",
+        "price": 12.99
+    },
+    {
+        "tld": ".web.tr",
+        "price": 12.99
+    },
+    {
+        "tld": ".vc",
+        "price": 12.99
+    },
+    {
+        "tld": ".co.ke",
+        "price": 12.99
+    },
+    {
+        "tld": ".ne.ke",
+        "price": 12.99
+    },
+    {
+        "tld": ".me.ke",
+        "price": 12.99
+    },
+    {
+        "tld": ".mobi.ke",
+        "price": 12.99
+    },
+    {
+        "tld": ".info.ke",
+        "price": 12.99
+    },
+    {
+        "tld": ".or.ke",
+        "price": 12.99
+    },
+    {
+        "tld": ".hk",
+        "price": 12.99
+    },
+    {
+        "tld": ".com.ai",
+        "price": 12.99
+    },
+    {
+        "tld": ".net.ai",
+        "price": 12.99
+    },
+    {
+        "tld": ".off.ai",
+        "price": 12.99
+    },
+    {
+        "tld": ".org.ai",
+        "price": 12.99
+    },
+    {
+        "tld": ".pr",
+        "price": 12.99
+    },
+    {
+        "tld": ".radio.am",
+        "price": 12.99
+    },
+    {
+        "tld": ".radio.fm",
+        "price": 12.99
+    },
+    {
+        "tld": ".xn--io0a7i",
+        "price": 12.99
+    },
+    {
+        "tld": ".xn--6frz82g",
+        "price": 12.99
+    },
+    {
+        "tld": ".xn--3ds443g",
+        "price": 12.99
+    },
+    {
+        "tld": ".xn--fiq228c5hs",
+        "price": 12.99
+    },
+    {
+        "tld": ".xn--c1avg",
+        "price": 12.99
+    },
+    {
+        "tld": ".xn--i1b6b1a6a2e",
+        "price": 12.99
+    },
+    {
+        "tld": ".xn--ngbc5azd",
+        "price": 12.99
+    },
+    {
+        "tld": ".xn--nqv7f",
+        "price": 12.99
+    },
+    {
+        "tld": ".xn--q9jyb4c",
+        "price": 12.99
+    },
+    {
+        "tld": ".xn--80asehdb",
+        "price": 12.99
+    },
+    {
+        "tld": ".xn--80adxhks",
+        "price": 12.99
+    },
+    {
+        "tld": ".xn--80aswg",
+        "price": 12.99
+    },
+    {
+        "tld": ".xn--mgbab2bd",
+        "price": 12.99
+    },
+    {
+        "tld": ".xn--55qx5d",
+        "price": 12.99
+    },
+    {
+        "tld": ".observer",
+        "price": 12.99
+    },
+    {
+        "tld": ".protection",
+        "price": 12.99
+    },
+    {
+        "tld": ".co.nl",
+        "price": 12.99
+    }
+]

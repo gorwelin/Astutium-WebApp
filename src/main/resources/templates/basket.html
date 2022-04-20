@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{layout.html}">
+<head>
+<meta charset="UTF-8">
+<title>Add a new noun - Academi Gymraeg</title>
+
+<link rel="stylesheet" type="text/css" th:href="@{/basket.css}" />
+
+
+</head>
+<body layout:fragment="content">
+
+
+<div class = "AddLayout">
+	<div class = "Hosting">
+		<h3>Hosting</h3> 
+		<div class = "cpanel">
+			<p style="padding-left: 5px">The perfect companion to any personal domain. Easily manage your website and server using a graphical interface (GUI). All the tools you could possibly need with 24/7 support from Astutium</p>
+			<img th:src="@{/img/cpanel.png}" width = "260" height = "60" class = "cpanel">
+		</div>
+	<div class = "HostingLevels">
+		<!-- Box 1 -->
+		<div class = "Box">
+			<div class = "LevelHeader">
+				<p class = "LevelText">Level 1 </p><p class="cost"> £2.95 /mo</p>
+			</div>
+			<div class = "BoxText">
+				<p>Linux Shared Hosting<br>with HTML/PHP<br></p>
+				<p>1 site<br>100 MB storage<br>1GB /mo transfer<br>5 email accounts<br>99% uptime SLA</p>
+			</div>
+				<button onclick="this.disabled=true; addToBasket('Personal Hosting Level 1', 2.95)" class = "AddToCartDesign">Add to cart</button>
+		</div>
+
+		<!-- Box 2 -->
+		<div class = "Box">
+			<div class = "LevelHeader">
+				<p class = "LevelText">Level 2 </p><p class="cost"> £4.95 /mo</p>
+			</div>
+			<div class = "BoxText">
+				<p>Linux Shared Hosting<br>with HTML/PHP & MySQL<br></p>
+				<p>3 site<br>250 MB storage<br>3GB /mo transfer<br>10 email accounts<br>99.5% uptime SLA</p>
+			</div>
+				<button onclick="this.disabled=true; addToBasket('Personal Hosting Level 2', 4.95)" class = "AddToCartDesign">Add to cart</button>
+		</div>
+
+		<!-- Box 3 -->
+		<div class = "Box">
+			<div class = "LevelHeader">
+				<p class = "LevelText">Level 3 </p><p class="cost"> £7.95 /mo</p>
+			</div>
+			<div class = "BoxText">
+				<p>Linux Shared Hosting<br>with HTML/PHP & MySQL<br></p>
+				<p>5 site<br>500 MB storage<br>7GB /mo transfer<br>15 email accounts<br>99.5% uptime SLA</p>
+			</div>
+				<button onclick="this.disabled=true; addToBasket('Personal Hosting Level 3', 7.95)" class = "AddToCartDesign">Add to cart</button>
+		</div>
+	</div>
+	</div>
+
+
+	<div class = "WHOISIDProtection">
+		<div class = "WHOHeader">
+			<h3>WHOIS ID Protection</h3>
+			<p class = "cost">£12.00 <span class="opacity">Inc. VAT</span></p>
+		</div>
+		<div class = "WHOSinfo">
+			<p>WHOIS ID Protection Removes your personal details from the public<br>display of WHOIS services, providing spam and identity protection.<br><li>Free WHOIS opt-out for bangoruniversitycsee.co.uk</li></p>
+		</div>
+		<div class="MidSection">
+			<div class = "Unprotected">
+				<p><img th:src="@{/img/warning.png}" width="60" height="60"><span class = "UnprotectedExample">Unprotected WHOIS</span></p>
+				<p>John Smith Productions<br>John Smith<br>12 Main St<br>Hollister, CA 95023<br>United States<br>(555) 555-1234<br>johnsmith@jsmithprod.com</p>
+				<p><br><span class = "UnprotectedExample" style="font-size: 20px">Your information is visable to the public!</span></p>
+			</div>
+			<div class = "Protected">
+				<p><img th:src="@{/img/protected.png}" width="60" height="60"><span class = "ProtectedExample">Protected with ID Protect</span></p>
+				<p>WHOIS Privacy Protection Service<br>WHOIS Agent<br>PMB 368, 14150 NE 20th St - F1<br>C/O johnsmithprod.com<br>Bellevue, WA 98007<br>United States<br>(425) 274-0657<br>gmvjcxkxh@whoisprivacyprotect.com</p>
+				<p><br><span class = "ProtectedExample" style="font-size: 20px">Your information is hidden!</span></p>
+			</div>
+		</div>
+		<button onclick="this.disabled=true; addToBasket('WHOIS ID Protection', 12)" class = "AddToCartDesign">Add to cart</button>
+	</div>
+
+
+	<div class = "SSLCertificate">
+		<div class = "SSLheader">
+			<h3>SSL Certificate</h3>
+			<p class = "cost">£15.00 <span class="opacity">Inc. VAT</span></p>
+		</div>
+		<div class = "SSLinfo">
+			<p>SSL has many benefits. It secures your website to protect your data; much<br> needed if you're going to be taking any information from customers. It also<br> ranks better on search engines (SEO) meets PCI/DSS requirements and<br> it has become standard for websites since 2018.</p>
+		</div>
+
+		<div class = "SSLboxTemplate">
+
+			<div class = "SSLBox">
+				<div class = "SSLboxHeader">
+					<P>Comodo/SBS<br>Domain Validation</P>
+					<p style="color: black;">£15 /year</p>
+				</div>
+				<div class = "SSLboxInfo">
+					<p>Entry level SSL certificate providing 128-bit encryption. Assures online visitors that submitted information cannot be viewed, intercepted or altered.</p>
+				</div>
+					<button onclick="this.disabled=true; addToBasket('Comodo/SBS Domain Validation', 15)" class = "SSLAddToCartDesign">Add to cart</button>
+			</div>
+
+
+			<div class = "SSLBox">
+				<div class = "SSLboxHeader">
+					<p>Comodo/ISSL<br>Identity Validation</p>
+					<p style="color: black;">£50 /year</p>
+				</div>
+				<div class = "SSLboxInfo">
+					<p>Standard SSL certificate providing 256-bit encryption. Assures online visitors that communication between browser and server cannot be viewed, intercepted or altered.</p>
+				</div>
+					<button onclick="this.disabled=true; addToBasket('Comodo/ISSL Identity Validation', 50)" class = "SSLAddToCartDesign">Add to cart</button>
+			</div>
+
+
+			<div class = "SSLBoxSeeAll">
+				<div class = "SSLboxHeader">
+					<p>See all</p>
+					<p>SSL Certificates</p>
+					<p>& Privacy Policies</p>
+					<img th:src="@{/img/bluearrow.png}" width="160" height="90">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class = "basketBorder">
+		<div class = "Basket">
+			<div class="basket-header">
+				<h3>Your Basket</h3>
+				<h3>GBP (£)</h3>
+			</div>
+			
+			<table class="basket-table">
+				  <colgroup>
+		    		<col class="basket-table-column-name">
+		    		<col class="basket-table-column-price">
+		  		</colgroup>
+				<tbody class="basket-table-body">
+					<th:block th:each="item, stat : ${basketObj}">
+						<tr class="basket-table-row">
+							<td class="basket-item-name" th:text="${item.itemName}"></td>
+							<td class="basket-item-price" th:text="${'£' + item.price}"></td>
+						</tr>
+					
+					</th:block>
+				</tbody>
+			</table>
+		</div>
+		<button class = "Checkout">Checkout</button>
+	</div>
+</div>
+                       
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+<script th:inline="javascript">
+
+	function addToBasket(name, price) {
+	
+		$(".basket-table-body").append('<tr class="basket-table-row"><td class="basket-item-name">' + name +'</td><td class="basket-item-price">£' + price +'</td></tr>');
+		
+		$.ajax({
+           type: "POST",
+           url: "/addToBasket",
+           data: {
+           		"itemname": name,
+           		"price": price
+           }
+         });
+	}
+
+</script>
+</body>
+</html>

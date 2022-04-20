@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{layout.html}">
+<head>
+<meta charset="UTF-8">
+<title>Add a new noun - Academi Gymraeg</title>
+
+<link rel="stylesheet" type="text/css" th:href="@{/landing.css}" />
+<link rel="stylesheet" type="text/css" th:href="@{/slick.css}">
+<link rel="stylesheet" type="text/css" th:href="@{/slick-theme.css}">
+
+
+</head>
+<body layout:fragment="content">
+
+	<div class="row-container">
+		<section class="landing-cover">
+			<div class="landing-cover-text">
+				<h1>
+					Every business starts <span>somewhere.</span>
+				</h1>
+				<p>Start yours today with a website domain.</p>
+				<span>Choose from over 1200 domain endings</span>
+				<div class="domain-searchbar">
+					<form method="post" th:action="@{/domain/search}" class="col-md-12" id="domain-search">
+						<input id="search" name="domaininput" type="search" placeholder="Search for domains to start - e.g. example.com" pattern="([a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+([a-z0-9][a-z0-9-]{0,61}[a-z0-9])" title="Please enter a valid domain e.g. example.co.uk"/>
+						<input type="hidden" name="tld" id="tld">
+						<button id="submit" type="submit">Explore &nbsp;<span class="material-icons">search</span></button>
+					</form>
+				</div>
+				<span class="landing-cover-whois">Free WHOIS-ID Protection</span>	
+			</div>
+			<div class="landing-cover-img-container">
+				<img class="landing-cover-img" alt="person working" th:src="@{/img/Worktime-bro.svg}"/>
+			</div>
+		</section>
+	</div>
+	
+	
+	<section class="whyast">
+		<div class="whyast-text">
+			<h2>Why Astutium?</h2>
+			<p>Welcome to Astutium, a business that offers a high quality service at a competitive price.<br> Not quite sure about buying a domain? Click <a href="#">here</a> for our guide</p>
+		</div>
+		<div class="whyast-container">
+			<div class="whyast-col">
+				<div class="whyast-card floating">
+					<img th:src="@{/img/Revenue-bro.svg}" alt="why astutium - " />
+					<p>Lowest price domain transfers of any UK registrar</p>
+				</div>
+				<div class="whyast-card floating">
+					<img th:src="@{/img/destination.svg}" alt="why astutium - " />
+					<p>Free self-managed DNS Zone included with domains</p>
+				</div>
+			</div>
+			<div class="whyast-col">
+				<div class="whyast-card floating">
+					<img th:src="@{/img/Telecommuting-bro.svg}" alt="why astutium - " />
+					<p>24 Hour Support, 7 Days a Week, 365 Days a Year</p>
+				</div>
+				<div class="whyast-card floating">
+					<img th:src="@{/img/Security-pana.svg}" alt="why astutium - " />
+					<p>Completely free WHOIS-id protection</p>
+				</div>
+			</div>
+			<div class="whyast-col">
+				<div class="whyast-card floating">
+					<img th:src="@{/img/Website-designer-amico.svg}" alt="why astutium - " />
+					<p>Easy Website Builder & cPanel</p>
+				</div>
+				<div class="whyast-card floating">
+					<img th:src="@{/img/Mission-Impossible.svg}" alt="why astutium - " />
+					<p>Free DNS and Privacy services</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="hosting-sect">
+			<img class="hosting-img" th:src="@{/img/Website-setup-cuate.svg}" alt="website setup image" />
+
+		<div class="hosting-text">
+			<div class="hosting-cpanel-container">
+				<img class="hosting-cpanel" th:src="@{/img/cPanel.svg}" alt="cPanel with Wordpress, Drupal, MySQl, etc">
+			</div>
+			<span class="hosting-minitext">From only</span>
+			<div class="hosting-price">
+				<span class="hosting-price-num">£2.95</span>
+				<span class="hosting-price-month">/ month</span>
+			</div>
+			<div class="hosting-perks">
+				<span class="hosting-minitext">up to</span>
+				<p>15 Emails | 5 Databases | 500MB Disk</p>
+			</div>
+			<p class="hosting-paragraph">The perfect companion to any domain. Easily manage your website and server using a graphical interface (GUI). All the tools you could possibly need with 24/7 support from Astutium and cPanel.</p>
+			<div class="hosting-cta">
+				<a href="#">LEARN MORE<span class="material-icons">chevron_right</span></a>
+				<a href="#">Explore our E-Commerce packages</a>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section class="testimonials">
+		<h3>Testimonials</h3>
+		
+		<div class="testimonials-carousel">
+			<div>
+				<div class="testimonials-card">
+					<img th:src="@{/img/testim-1.svg}" alt="testimonials person" />
+					<div class="testimonials-quote">
+						<span>"Astutium has been steadfast in its superb customer support over the last 3 (plus) years that I have been a client. Shelagh Shaw is always ready to help with any number of issues, and offers world-class support to her international clients (I am bi-contnental!)"</span>
+						<span>- Lisa <br>Butterfly Films</span>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="testimonials-card">
+					<img th:src="@{/img/testim-5.svg}" alt="testimonials person" />
+					<div class="testimonials-quote">
+						<span>"Dealing with HostingBegins (an Astutium brand) has always been a pleasure, incredibly quick response to any and all of my issues. I have been using their services for a number of years and would never consider changing, even for a better price."</span>
+						<span>- Trevor Pascall <br>Bitools</span>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="testimonials-card">
+					<img th:src="@{/img/testim-2.svg}" alt="testimonials person" />
+					<div class="testimonials-quote">
+						<span>"I am a web designer, and I researched hosting options extensively before deciding to try SimplyBeHosted more than 2 years ago. I was amazed by the high standard of their customer service, and really pleased with the Control Panel which allowed extensive management of the account"</span>
+						<span>- Vicky Etherington <br>Azure Marketing</span>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="testimonials-card">
+					<img th:src="@{/img/testim-3.svg}" alt="testimonials person" />
+					<div class="testimonials-quote">
+						<span>"I've used SimplyBeHosted (An Astutium brand) for 10 years or more, and have found them consistently excellent in terms of pricing, support, performance, reliability and the flexibility of the packages on offer. I've recommended SBH numerous times to other people, and am happy to continue to do so."</span>
+						<span>- Rob Lightbody <br>The QE2 Story</span>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="testimonials-card">
+					<img th:src="@{/img/testim-4.svg}" alt="testimonials person" />
+					<div class="testimonials-quote">
+						<span>"Just wanted to take a moment to say a big thanks to you and your team. Astutium have provided me with the best support I have ever encountered. And I wanted to say this to show my great appreciation for all you have done for me. I recommend them to all my peers and clients. Thank you so much and keep up the good work!"</span>
+						<span>- Melissa Wood</span>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="testimonials-card">
+					<img th:src="@{/img/testim-6.svg}" alt="testimonials person" />
+					<div class="testimonials-quote">
+						<span>"Many thanks to Rob for helping me decide on the best plan to upgrade to for an aviation group website. The advice was very clear and tailored to our needs and the response was very quick. Advice about upgrading online was very useful and now I feel confident I'm doing the right thing and know how to do it."</span>
+						<span>- Elizabeth Gatheral <br>NaDAG</span>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<a class="testimonials-cta" href="https://astutium.com/testimonials.php">Click to see more from our customers</a>
+	</section>
+
+	<section class="contact-cta">
+		<div class="contact-cta-container">
+			<div class="contact-img-container">
+				<img th:src="@{/img/Telecommuting-cuate.svg}">
+			</div>
+			<div class="contact-text">
+				<div>
+					<h4>So get in touch!</h4>
+					<p> Tell us wat we can do to help you expand your business online. 
+					Astutium are an Accredited Registrar for over 1000 gTLDS and 
+					ccTLDS. Register your domain names with astutium and experience 
+					the many benefits. 
+					<br><br>
+					Looking for something else? Check out our other services for more
+					 information.</p>
+				</div>
+	
+				 
+				 <div class="contact-buttons">
+				 	<a href="#">Chat to us</a>
+				 	<a href="#">Our services</a>
+				 </div>
+			</div>
+		</div>
+
+	
+	</section>
+
+
+                       
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+        <script th:inline="javascript">
+
+            
+            $(document).ready(function() {
+            	$('.testimonials-carousel').slick({
+				  slidesToShow: 1,
+				  slidesToScroll: 1,
+				  autoplay: true,
+				  autoplaySpeed: 5000,
+				});
+            
+                var request;
+                
+                $("#domain-search").submit(function(e) {
+                	if (request) {
+                        request.abort();
+                    }
+                	
+                	var domaininput = $("#search").val();
+					
+                    var psl = require("psl");
+                    
+                    if(psl.isValid(domaininput)) {
+                    	var domainstring = psl.parse(domaininput);
+                    	console.log(domainstring.tld);
+                    	console.log(domainstring.sld);
+                    
+                    	$("#search").val(domainstring.sld);
+                    	$("#tld").val("."+domainstring.tld);
+                    
+                    	return true;
+                    } else {
+                    	alert("your domain is not valid, please try again");
+                    	return false;
+                    }
+                    
+                    
+
+            
+
+                });
+
+
+            })
+            
+        
+        
+        </script>
+</body>
+</html>

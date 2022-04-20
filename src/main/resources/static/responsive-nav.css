@@ -1,0 +1,32 @@
+@media screen and (max-width: 1024px) {
+    .header {
+        display: none;
+    }
+    .mobile-header {
+        display: flex;
+    }
+    .footWrapper {
+        flex-wrap: wrap;
+    }
+    .Astutium,
+    .footer-astutium-child {
+        width: 40%;
+    }
+    .Astutium ul {
+        margin-block-start: none;
+        margin-block-end: none;
+        margin-inline-start: 0;
+        margin-inline-end: none;
+        padding-inline-start: none;
+    }
+    .mobile-nav-items .mobile-nav-item {
+    	margin-bottom: 25px;
+    }
+    .Astutium ul li {
+        display: inline-block;
+        height: auto;
+    }
+    .footer-astutium-child ul {
+        max-height: 100%;
+    }
+}
